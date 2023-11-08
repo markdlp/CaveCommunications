@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.22)  9 NOV 2023 00:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.22)  9 NOV 2023 01:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,6 +294,213 @@ File: t3enc.def 2001/12/31 T3 encoding
 \tipaTiiicode=\count315
 \tipasavetokens=\toks28
 \tipachecktokens=\toks29
+) (/usr/local/texlive/2023/texmf-dist/tex/xelatex/ucharclasses/ucharclasses.sty
+Package: ucharclasses 2022/10/20 v2.6.0 Unicode block character classes for XeLaTeX
+\AlphabeticPresentationFormsClass=\XeTeXcharclass1
+\BasicLatinClass=\XeTeXcharclass2
+\CopticClass=\XeTeXcharclass3
+\GreekAndCopticClass=\XeTeXcharclass4
+\GreekExtendedClass=\XeTeXcharclass5
+\LatinExtendedAdditionalClass=\XeTeXcharclass6
+\LatinExtendedAClass=\XeTeXcharclass7
+\LatinExtendedBClass=\XeTeXcharclass8
+\LatinExtendedCClass=\XeTeXcharclass9
+\LatinExtendedDClass=\XeTeXcharclass10
+\LatinSupplementClass=\XeTeXcharclass11
+\CopticEpactNumbersClass=\XeTeXcharclass12
+\LatinExtendedEClass=\XeTeXcharclass13
+\LatinExtendedFClass=\XeTeXcharclass14
+\LatinExtendedGClass=\XeTeXcharclass15
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2023/10/01 v1.65 Modern multilingual typesetting with XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count316
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count317
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+\xpg@normalclass=\XeTeXcharclass16
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-latex.lde
+Package: gloss-latex 2023/10/01 v1.65 polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}.
+)
+Package polyglossia Info: Default language is latex.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-greek.ldf
+File: gloss-greek.ldf polyglossia: module for Greek
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {greek/script}  =>  {Greek}
+>  {greek/lcscript}  =>  {greek}
+>  {greek/scripttag}  =>  {grek}
+>  {greek/language}  =>  {Greek}
+>  {greek/langtag}  =>  {ELL}
+>  {greek/bcp47}  =>  {el-monoton}
+>  {greek/bcp47-language}  =>  {el}
+>  {greek/bcp47-region}  =>  {}
+>  {greek/bcp47-script}  =>  {Grek}
+>  {greek/bcp47-variant}  =>  {monoton}
+>  {greek/bcp47-extension-t}  =>  {}
+>  {greek/bcp47-extension-u}  =>  {nu-grek}
+>  {greek/bcp47-extension-x}  =>  {}
+>  {greek/bcp47-casing}  =>  {el}
+>  {greek/hyphennames}  =>  {}
+>  {greek/direction}  =>  {LR}
+>  {greek/hyphenmins}  =>  {2,3}
+>  {greek/frenchspacing}  =>  {true}
+>  {greek/indentfirst}  =>  {true}
+>  {greek/fontsetup}  =>  {true}
+>  {greek/envname}  =>  {greek}
+>  {greek/babelname}  =>  {greek}
+>  {greek/localnumeral}  =>  {greeknumerals}
+>  {greek/Localnumeral}  =>  {Greeknumerals}
+>  {greek/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/xgreek-fixes.def)
+Package polyglossia Info: Option: Greek, variant=monotonic.
+Package polyglossia Info: Option: Greek, numerals=greek.
+\@attic@num=\count318
+)
+Package polyglossia Info: Default language is greek.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {greek/script}  =>  {Greek}
+>  {greek/lcscript}  =>  {greek}
+>  {greek/scripttag}  =>  {grek}
+>  {greek/language}  =>  {Greek}
+>  {greek/langtag}  =>  {ELL}
+>  {greek/bcp47}  =>  {el-monoton}
+>  {greek/bcp47-language}  =>  {el}
+>  {greek/bcp47-region}  =>  {}
+>  {greek/bcp47-script}  =>  {Grek}
+>  {greek/bcp47-variant}  =>  {monoton}
+>  {greek/bcp47-extension-t}  =>  {}
+>  {greek/bcp47-extension-u}  =>  {nu-grek}
+>  {greek/bcp47-extension-x}  =>  {}
+>  {greek/bcp47-casing}  =>  {el}
+>  {greek/hyphennames}  =>  {}
+>  {greek/direction}  =>  {LR}
+>  {greek/hyphenmins}  =>  {2,3}
+>  {greek/frenchspacing}  =>  {true}
+>  {greek/indentfirst}  =>  {true}
+>  {greek/fontsetup}  =>  {true}
+>  {greek/envname}  =>  {greek}
+>  {greek/babelname}  =>  {greek}
+>  {greek/localnumeral}  =>  {greeknumerals}
+>  {greek/Localnumeral}  =>  {Greeknumerals}
+>  {greek/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/bcp47-language}  =>  {en}
+>  {english/bcp47-region}  =>  {US}
+>  {english/bcp47-script}  =>  {Latn}
+>  {english/bcp47-variant}  =>  {}
+>  {english/bcp47-extension-t}  =>  {}
+>  {english/bcp47-extension-u}  =>  {}
+>  {english/bcp47-extension-x}  =>  {}
+>  {english/bcp47-casing}  =>  {}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {english}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+Package polyglossia Info: Option: English, variant=american.
 )
 
 Package fontspec Info: Font family 'LinuxLibertine(0)' created for font 'Linux
@@ -361,6 +568,33 @@ Package fontspec Info: Font family 'DroidSansMono(0)' created for font 'Droid
 
 Package fontspec Info: Font family 'LinuxLibertine(1)' created for font 'Linux
 (fontspec)             Libertine' with options
+(fontspec)             [Mapping=tex-text,Ligatures=TeX,Kerning=On,Mapping=tex-text].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;+kern;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;+kern;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;+kern;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;+kern;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;+kern;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;+kern;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'LinuxLibertine(2)' created for font 'Linux
+(fontspec)             Libertine' with options
 (fontspec)             [Mapping=tex-text,Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
@@ -385,35 +619,62 @@ Package fontspec Info: Font family 'LinuxLibertine(1)' created for font 'Linux
 (fontspec)             <->"Linux
 (fontspec)             Libertine/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
+
+Package fontspec Info: Font family 'LinuxLibertine(3)' created for font 'Linux
+(fontspec)             Libertine' with options
+(fontspec)             [Mapping=tex-text,Script=Greek].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=grek;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=grek;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=grek;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=grek;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/I/OT:script=grek;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/I/OT:script=grek;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/BI/OT:script=grek;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/BI/OT:script=grek;language=dflt;+smcp;mapping=tex-text;"
+
  (./MarkosDelaportas_CaveCommunications.aux)
 \openout1 = `MarkosDelaportas_CaveCommunications.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 43.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 34.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 34.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 43.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 43.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -455,121 +716,146 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
-LaTeX Font Info:    Redeclaring math accent \check on input line 34.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
+LaTeX Font Info:    Redeclaring math accent \check on input line 43.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 34.
+(Font)              `operators' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/LinuxLibertine(1)/m/n on input line 34.
+(Font)                  OT1/cmr/m/n --> TU/LinuxLibertine(2)/m/n on input line 43.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 34.
+(Font)              `operators' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/LinuxLibertine(1)/m/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> TU/LinuxLibertine(2)/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/LinuxLibertine(1)/m/n --> TU/LinuxLibertine(1)/m/n on input line 34.
+(Font)                  TU/LinuxLibertine(2)/m/n --> TU/LinuxLibertine(2)/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/LinuxLibertine(1)/m/it on input line 34.
+(Font)                  OT1/cmr/m/it --> TU/LinuxLibertine(2)/m/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/LinuxLibertine(1)/b/n on input line 34.
+(Font)                  OT1/cmr/bx/n --> TU/LinuxLibertine(2)/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/LinuxLibertine(0)/m/n on input line 34.
+(Font)                  OT1/cmss/m/n --> TU/LinuxLibertine(0)/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/DroidSansMono(0)/m/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> TU/DroidSansMono(0)/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/LinuxLibertine(1)/m/n --> TU/LinuxLibertine(1)/b/n on input line 34.
+(Font)                  TU/LinuxLibertine(2)/m/n --> TU/LinuxLibertine(2)/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/LinuxLibertine(1)/b/it on input line 34.
+(Font)                  OT1/cmr/bx/it --> TU/LinuxLibertine(2)/b/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/LinuxLibertine(0)/b/n on input line 34.
+(Font)                  OT1/cmss/bx/n --> TU/LinuxLibertine(0)/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/DroidSansMono(0)/b/n on input line 34.
+(Font)                  OT1/cmtt/m/n --> TU/DroidSansMono(0)/b/n on input line 43.
+The property list \__xpg_alias contains the pairs (without outer braces):
+>  {latex/target}  =>  {latex}
+>  {greek/target}  =>  {greek}
+>  {grc/target}  =>  {greek}
+>  {grc/variant}  =>  {ancient}
+>  {grc/options}  =>  {variant=ancient}
+>  {el-polyton/target}  =>  {greek}
+>  {el-polyton/options}  =>  {varant=polytonic}
+>  {el-monoton/target}  =>  {greek}
+>  {el-monoton/variant}  =>  {monotonic}
+>  {el-monoton/options}  =>  {variant=monotonic}
+>  {el/target}  =>  {greek}
+>  {polutonikogreek/target}  =>  {greek}
+>  {polutonikogreek/variant}  =>  {polytonic}
+>  {polutonikogreek/options}  =>  {variant=polytonic}
+>  {english/target}  =>  {english}
+>  {en/target}  =>  {english}
+>  {en-AU/target}  =>  {english}
+>  {en-AU/variant}  =>  {australian}
+>  {en-AU/options}  =>  {variant=australian}
+>  {en-CA/target}  =>  {english}
+>  {en-CA/variant}  =>  {canadian}
+>  {en-CA/options}  =>  {variant=canadian}
+>  {en-GB/target}  =>  {english}
+>  {en-GB/variant}  =>  {british}
+>  {en-GB/options}  =>  {variant=british}
+>  {en-NZ/target}  =>  {english}
+>  {en-NZ/variant}  =>  {newzealand}
+>  {en-NZ/options}  =>  {variant=newzealand}
+>  {en-US/target}  =>  {english}
+>  {en-US/variant}  =>  {us}
+>  {en-US/options}  =>  {variant=us}
+>  {american/target}  =>  {english}
+>  {american/variant}  =>  {us}
+>  {american/options}  =>  {variant=us}
+>  {australian/target}  =>  {english}
+>  {australian/variant}  =>  {australian}
+>  {australian/options}  =>  {variant=australian}
+>  {british/target}  =>  {english}
+>  {british/variant}  =>  {british}
+>  {british/options}  =>  {variant=british}
+>  {canadian/target}  =>  {english}
+>  {canadian/variant}  =>  {canadian}
+>  {canadian/options}  =>  {variant=canadian}
+>  {newzealand/target}  =>  {english}
+>  {newzealand/variant}  =>  {newzealand}
+>  {newzealand/options}  =>  {variant=newzealand}.
 LaTeX Font Info:    Font shape `TU/DroidSansMono(0)/m/n' will be
-(Font)              scaled to size 16.67308pt on input line 35.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(Font)              scaled to size 16.67308pt on input line 44.
+
+/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex:44: Package polyglossia Error: The current latin monospace font does not contain the "Greek" script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily command.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \maketitle
+               
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/DroidSansMono(0)/m/n' will be
-(Font)              scaled to size 11.57628pt on input line 35.
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-[] \TU/LinuxLibertine(1)/b/n/8 Abstract–Τα ασύρματα δίκτυα επικοι-νωνίας
- []
+(Font)              scaled to size 11.57628pt on input line 44.
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 55--56
-\TU/LinuxLibertine(1)/b/n/8 η αποτελεσματικότητά τους μπορεί να παρεμποδιστεί
- []
+/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex:44: Package polyglossia Error: The current latin monospace font does not contain the "Greek" script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily command.
+
+See the polyglossia package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \maketitle
+               
+(That was another \errmessage.)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-\TU/LinuxLibertine(1)/b/n/8 κατεστραμέννα κτήρια ή στον τομέα της γεωργίας
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-\TU/LinuxLibertine(1)/b/n/8 γίνει προκειμένου να μοντελοποιηθεί σε περιβάλλον
- []
-
-
-Underfull \hbox (badness 6559) in paragraph at lines 64--70
-\TU/LinuxLibertine(1)/m/n/8 Αυτά τα δίκτυα έχουν σχεδιαστεί για να υποστηρίζουν
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
-\TU/LinuxLibertine(1)/m/n/8 Σε αυτό το κομμάτι παρουσιάζονται διάφοροι τρόποι
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-[]\TU/LinuxLibertine(1)/m/n/8 Παρακάτω παρατείθενται διάφορες τοπολογίες και
- []
-
-
-Underfull \hbox (badness 8151) in paragraph at lines 90--91
-\TU/LinuxLibertine(1)/m/n/8 τεχνικές με συνδιασμό ενός εκ των παραπάνω τρόπων
- []
-
-
-Underfull \hbox (badness 6428) in paragraph at lines 90--91
-\TU/LinuxLibertine(1)/m/n/8 προσσέγισης και αστερισμού προκειμένουν να επιτευχθεί
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-[]\TU/LinuxLibertine(1)/m/n/8 «κόμβους κορμού» που είναι τοποθετημένο στα
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-[]\TU/LinuxLibertine(1)/m/n/8 «Κινητοί κόμβοι», οι οποίοι έχουν παρόμοια
+Underfull \hbox (badness 5578) in paragraph at lines 66--71
+[]\TU/LinuxLibertine(3)/m/n/8 : Since the appearence of the first wireless mobile
  []
 
 [1
@@ -578,50 +864,169 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 File: img/ICWMSN-WMSNpng.png Graphic file (type bmp)
 <img/ICWMSN-WMSNpng.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
-\TU/LinuxLibertine(1)/m/n/8 Οι κινητοί κόμβοι μεταφέρονται από σπηλαιολόγους
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+[]\TU/LinuxLibertine(3)/m/n/8 Οι κινητοί κόμβοι μεταφέρονται από σπηλαιολό-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
-\TU/LinuxLibertine(1)/m/n/8 και περιλαμβάνουν χαρακτηριστικά πέρα από τα
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+\TU/LinuxLibertine(3)/m/n/8 γους και περιλαμβάνουν χαρακτηριστικά πέρα από τα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
-\TU/LinuxLibertine(1)/m/n/8 τυπικά ενός ασύρματου αισθητήρα κόμβος για την
+Underfull \hbox (badness 6592) in paragraph at lines 121--127
+\TU/LinuxLibertine(3)/m/n/8 τυπικά ενός ασύρματου αισθητήρα κόμβος για την αλ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
-\TU/LinuxLibertine(1)/m/n/8 αλληλεπίδραση με τους σπηλαιολόγους. Αυτά τα
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+\TU/LinuxLibertine(3)/m/n/8 ληλεπίδραση με τους σπηλαιολόγους. Αυτά τα χαρα-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--118
-\TU/LinuxLibertine(1)/m/n/8 χαρακτηριστικά περιλαμβάνει μια γραφική οθόνη, ένα
+Underfull \hbox (badness 6063) in paragraph at lines 121--127
+\TU/LinuxLibertine(3)/m/n/8 κτηριστικά περιλαμβάνει μια γραφική οθόνη, ένα μικρό-
  []
 
 
-Overfull \hbox (3.5919pt too wide) in paragraph at lines 112--118
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
+\TU/LinuxLibertine(3)/m/n/8 φωνο, ένα ακουστικό και ένα πληκτρολόγιο ελέγχου.
+ []
+
+
+Overfull \hbox (3.5919pt too wide) in paragraph at lines 121--127
 [] 
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 125--126
-\TU/LinuxLibertine(1)/m/n/8 ορισμένα πρότυπα επικοινωνίας τα οποία βασίζονται σε
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[]\TU/LinuxLibertine(3)/m/n/8 Σε θεωριτικό επίπεδο εχουν προταθεί τεχνολογίες
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-\TU/LinuxLibertine(1)/m/n/8 καλωδίου, χρησιμοποιώντας τη χωρητικότητα σύζευξης
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-\TU/LinuxLibertine(1)/m/n/8 τη σκοπιμότητα των υπόγειων ασύρματων δικτύων
- []
-
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {en-US}
+>  {latex/bcp47-language}  =>  {en}
+>  {latex/bcp47-region}  =>  {US}
+>  {latex/bcp47-script}  =>  {Latn}
+>  {latex/bcp47-variant}  =>  {}
+>  {latex/bcp47-extension-t}  =>  {}
+>  {latex/bcp47-extension-u}  =>  {}
+>  {latex/bcp47-extension-x}  =>  {}
+>  {latex/bcp47-casing}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {greek/script}  =>  {Greek}
+>  {greek/lcscript}  =>  {greek}
+>  {greek/scripttag}  =>  {grek}
+>  {greek/language}  =>  {Greek}
+>  {greek/langtag}  =>  {ELL}
+>  {greek/bcp47}  =>  {el-monoton}
+>  {greek/bcp47-language}  =>  {el}
+>  {greek/bcp47-region}  =>  {}
+>  {greek/bcp47-script}  =>  {Grek}
+>  {greek/bcp47-variant}  =>  {monoton}
+>  {greek/bcp47-extension-t}  =>  {}
+>  {greek/bcp47-extension-u}  =>  {nu-grek}
+>  {greek/bcp47-extension-x}  =>  {}
+>  {greek/bcp47-casing}  =>  {el}
+>  {greek/hyphennames}  =>  {}
+>  {greek/direction}  =>  {LR}
+>  {greek/hyphenmins}  =>  {2,3}
+>  {greek/frenchspacing}  =>  {true}
+>  {greek/indentfirst}  =>  {true}
+>  {greek/fontsetup}  =>  {true}
+>  {greek/envname}  =>  {greek}
+>  {greek/babelname}  =>  {greek}
+>  {greek/localnumeral}  =>  {greeknumerals}
+>  {greek/Localnumeral}  =>  {Greeknumerals}
+>  {greek/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
+>  {english/script}  =>  {latin}
+>  {english/lcscript}  =>  {latin}
+>  {english/scripttag}  =>  {}
+>  {english/language}  =>  {English}
+>  {english/langtag}  =>  {ENG}
+>  {english/bcp47}  =>  {en-US}
+>  {english/bcp47-language}  =>  {en}
+>  {english/bcp47-region}  =>  {US}
+>  {english/bcp47-script}  =>  {Latn}
+>  {english/bcp47-variant}  =>  {}
+>  {english/bcp47-extension-t}  =>  {}
+>  {english/bcp47-extension-u}  =>  {}
+>  {english/bcp47-extension-x}  =>  {}
+>  {english/bcp47-casing}  =>  {}
+>  {english/hyphennames}  =>  {english,american,usenglish,USenglish}
+>  {english/direction}  =>  {LR}
+>  {english/hyphenmins}  =>  {2,3}
+>  {english/frenchspacing}  =>  {false}
+>  {english/indentfirst}  =>  {false}
+>  {english/fontsetup}  =>  {true}
+>  {english/envname}  =>  {english}
+>  {english/babelname}  =>  {american}
+>  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+The property list \__xpg_alias contains the pairs (without outer braces):
+>  {latex/target}  =>  {latex}
+>  {greek/target}  =>  {greek}
+>  {grc/target}  =>  {greek}
+>  {grc/variant}  =>  {ancient}
+>  {grc/options}  =>  {variant=ancient}
+>  {el-polyton/target}  =>  {greek}
+>  {el-polyton/options}  =>  {varant=polytonic}
+>  {el-monoton/target}  =>  {greek}
+>  {el-monoton/variant}  =>  {monotonic}
+>  {el-monoton/options}  =>  {variant=monotonic}
+>  {el/target}  =>  {greek}
+>  {polutonikogreek/target}  =>  {greek}
+>  {polutonikogreek/variant}  =>  {polytonic}
+>  {polutonikogreek/options}  =>  {variant=polytonic}
+>  {english/target}  =>  {english}
+>  {en/target}  =>  {english}
+>  {en-AU/target}  =>  {english}
+>  {en-AU/variant}  =>  {australian}
+>  {en-AU/options}  =>  {variant=australian}
+>  {en-CA/target}  =>  {english}
+>  {en-CA/variant}  =>  {canadian}
+>  {en-CA/options}  =>  {variant=canadian}
+>  {en-GB/target}  =>  {english}
+>  {en-GB/variant}  =>  {british}
+>  {en-GB/options}  =>  {variant=british}
+>  {en-NZ/target}  =>  {english}
+>  {en-NZ/variant}  =>  {newzealand}
+>  {en-NZ/options}  =>  {variant=newzealand}
+>  {en-US/target}  =>  {english}
+>  {en-US/variant}  =>  {us}
+>  {en-US/options}  =>  {variant=us}
+>  {american/target}  =>  {english}
+>  {american/variant}  =>  {us}
+>  {american/options}  =>  {variant=us}
+>  {australian/target}  =>  {english}
+>  {australian/variant}  =>  {australian}
+>  {australian/options}  =>  {variant=australian}
+>  {british/target}  =>  {english}
+>  {british/variant}  =>  {british}
+>  {british/options}  =>  {variant=british}
+>  {canadian/target}  =>  {english}
+>  {canadian/variant}  =>  {canadian}
+>  {canadian/options}  =>  {variant=canadian}
+>  {newzealand/target}  =>  {english}
+>  {newzealand/variant}  =>  {newzealand}
+>  {newzealand/options}  =>  {variant=newzealand}.
 [2] (./MarkosDelaportas_CaveCommunications.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -629,12 +1034,12 @@ L3 programming layer <2023-10-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9307 strings out of 475161
- 193389 string characters out of 5766720
- 1933671 words of memory out of 5000000
- 30965 multiletter control sequences out of 15000+600000
- 561591 words of font info for 84 fonts, out of 8000000 for 9000
+ 11485 strings out of 475161
+ 241319 string characters out of 5766720
+ 1939671 words of memory out of 5000000
+ 33083 multiletter control sequences out of 15000+600000
+ 562029 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,6n,119p,1077b,292s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,6n,119p,1077b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MarkosDelaportas_CaveCommunications.xdv (2 pages, 73536 bytes).
+Output written on MarkosDelaportas_CaveCommunications.xdv (2 pages, 74132 bytes).

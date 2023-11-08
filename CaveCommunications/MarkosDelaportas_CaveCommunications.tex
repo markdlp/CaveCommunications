@@ -16,13 +16,22 @@
 \usepackage{amsmath}
 
 \usepackage{fontspec,xltxtra,xunicode}
+\usepackage[Latin,Greek]{ucharclasses}
 %\usepackage{microtype}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{greek}
+\setotherlanguages{english}
+
 \defaultfontfeatures{Mapping=tex-text}
 \setsansfont[Ligatures=TeX]{Linux Libertine}
 \setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
 
-
+\setmainfont[Kerning=On,Mapping=tex-text]{Linux Libertine}
 \setmainfont{Linux Libertine}
+
+\newfontfamily\greekfont[Script=Greek]{Linux Libertine}
+\newfontfamily\greekfontsf[Script=Greek]{Linux Libertine}
 
 \renewcommand{\thesection}{\Roman{section}} 
 \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}

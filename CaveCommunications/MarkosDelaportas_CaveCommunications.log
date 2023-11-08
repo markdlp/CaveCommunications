@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.22)  22 OCT 2023 20:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.22)  9 NOV 2023 00:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -12,14 +12,14 @@ Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
@@ -33,9 +33,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count193
-\Gm@cntv=\count194
-\c@Gm@tempcnt=\count195
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
 \Gm@bindingoffset=\dimen141
 \Gm@wd@mp=\dimen142
 \Gm@odd@mp=\dimen143
@@ -50,34 +50,34 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count196
-\c@Blindtext=\count197
-\c@blind@countparstart=\count198
-\blind@countxx=\count199
-\blindtext@numBlindtext=\count266
-\blind@countyy=\count267
-\c@blindlist=\count268
-\c@blindlistlevel=\count269
-\c@blindlist@level=\count270
-\blind@listitem=\count271
-\c@blind@listcount=\count272
-\c@blind@levelcount=\count273
-\blind@mathformula=\count274
-\blind@Mathformula=\count275
-\c@blind@randomcount=\count276
-\c@blind@randommax=\count277
-\c@blind@pangramcount=\count278
-\c@blind@pangrammax=\count279
+\c@blindtext=\count192
+\c@Blindtext=\count193
+\c@blind@countparstart=\count194
+\blind@countxx=\count195
+\blindtext@numBlindtext=\count196
+\blind@countyy=\count197
+\c@blindlist=\count198
+\c@blindlistlevel=\count199
+\c@blindlist@level=\count266
+\blind@listitem=\count267
+\c@blind@listcount=\count268
+\c@blind@levelcount=\count269
+\blind@mathformula=\count270
+\blind@Mathformula=\count271
+\c@blind@randomcount=\count272
+\c@blind@randommax=\count273
+\c@blind@pangramcount=\count274
+\c@blind@pangrammax=\count275
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count280
+\c@tracingmulticols=\count276
 \mult@box=\box51
 \multicol@leftmargin=\dimen149
-\c@unbalance=\count281
-\c@collectmore=\count282
-\doublecol@number=\count283
-\multicoltolerance=\count284
-\multicolpretolerance=\count285
+\c@unbalance=\count277
+\c@collectmore=\count278
+\doublecol@number=\count279
+\multicoltolerance=\count280
+\multicolpretolerance=\count281
 \full@width=\dimen150
 \page@free=\dimen151
 \premulticols=\dimen152
@@ -128,15 +128,15 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\c@minrows=\count286
-\c@columnbadness=\count287
-\c@finalcolumnbadness=\count288
+\c@minrows=\count282
+\c@columnbadness=\count283
+\c@finalcolumnbadness=\count284
 \last@try=\dimen155
 \multicolovershoot=\dimen156
 \multicolundershoot=\dimen157
 \mult@nat@firstbox=\box95
 \colbreak@box=\box96
-\mc@col@check@num=\count289
+\mc@col@check@num=\count285
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
@@ -146,9 +146,9 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
@@ -168,8 +168,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen160
 \enit@toks=\toks20
 \enit@inbox=\box97
-\enit@count@id=\count290
-\enitdp@description=\count291
+\enit@count@id=\count286
+\enitdp@description=\count287
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip53
@@ -187,14 +187,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count292
+\inf@bad=\count288
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count293
-\leftroot@=\count294
+\uproot@=\count289
+\leftroot@=\count290
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count295
-\DOTSCASE@=\count296
+\classnum@=\count291
+\DOTSCASE@=\count292
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -207,20 +207,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen163
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count297
+\macc@depth=\count293
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count298
+\c@MaxMatrixCols=\count294
 \dotsspace@=\muskip16
-\c@parentequation=\count299
-\dspbrk@lvl=\count300
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
 \tag@help=\toks22
-\row@=\count301
-\column@=\count302
-\maxfields@=\count303
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
 \andhelp@=\toks23
 \eqnshift@=\dimen164
 \alignsep@=\dimen165
@@ -234,294 +234,407 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count305
- (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-\c@tabx@nest=\count306
-\c@listtotal=\count307
-\c@listcount=\count308
-\c@liststart=\count309
-\c@liststop=\count310
-\c@citecount=\count311
-\c@citetotal=\count312
-\c@multicitecount=\count313
-\c@multicitetotal=\count314
-\c@instcount=\count315
-\c@maxnames=\count316
-\c@minnames=\count317
-\c@maxitems=\count318
-\c@minitems=\count319
-\c@citecounter=\count320
-\c@maxcitecounter=\count321
-\c@savedcitecounter=\count322
-\c@uniquelist=\count323
-\c@uniquename=\count324
-\c@refsection=\count325
-\c@refsegment=\count326
-\c@maxextratitle=\count327
-\c@maxextratitleyear=\count328
-\c@maxextraname=\count329
-\c@maxextradate=\count330
-\c@maxextraalpha=\count331
-\c@abbrvpenalty=\count332
-\c@highnamepenalty=\count333
-\c@lownamepenalty=\count334
-\c@maxparens=\count335
-\c@parenlevel=\count336
-\blx@tempcnta=\count337
-\blx@tempcntb=\count338
-\blx@tempcntc=\count339
-\c@blx@maxsection=\count340
-\blx@maxsegment@0=\count341
-\blx@notetype=\count342
-\blx@parenlevel@text=\count343
-\blx@parenlevel@foot=\count344
-\blx@sectionciteorder@0=\count345
-\blx@sectionciteorderinternal@0=\count346
-\blx@entrysetcounter=\count347
-\blx@biblioinstance=\count348
-\labelnumberwidth=\skip56
-\labelalphawidth=\skip57
-\biblabelsep=\skip58
-\bibitemsep=\skip59
-\bibnamesep=\skip60
-\bibinitsep=\skip61
-\bibparsep=\skip62
-\bibhang=\skip63
-\blx@bcfin=\read2
-\blx@bcfout=\write3
-\blx@langwohyphens=\language89
-\c@mincomprange=\count349
-\c@maxcomprange=\count350
-\c@mincompwidth=\count351
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count352
-\c@savedafterword=\count353
-\c@annotator=\count354
-\c@savedannotator=\count355
-\c@author=\count356
-\c@savedauthor=\count357
-\c@bookauthor=\count358
-\c@savedbookauthor=\count359
-\c@commentator=\count360
-\c@savedcommentator=\count361
-\c@editor=\count362
-\c@savededitor=\count363
-\c@editora=\count364
-\c@savededitora=\count365
-\c@editorb=\count366
-\c@savededitorb=\count367
-\c@editorc=\count368
-\c@savededitorc=\count369
-\c@foreword=\count370
-\c@savedforeword=\count371
-\c@holder=\count372
-\c@savedholder=\count373
-\c@introduction=\count374
-\c@savedintroduction=\count375
-\c@namea=\count376
-\c@savednamea=\count377
-\c@nameb=\count378
-\c@savednameb=\count379
-\c@namec=\count380
-\c@savednamec=\count381
-\c@translator=\count382
-\c@savedtranslator=\count383
-\c@shortauthor=\count384
-\c@savedshortauthor=\count385
-\c@shorteditor=\count386
-\c@savedshorteditor=\count387
-\c@labelname=\count388
-\c@savedlabelname=\count389
-\c@institution=\count390
-\c@savedinstitution=\count391
-\c@lista=\count392
-\c@savedlista=\count393
-\c@listb=\count394
-\c@savedlistb=\count395
-\c@listc=\count396
-\c@savedlistc=\count397
-\c@listd=\count398
-\c@savedlistd=\count399
-\c@liste=\count400
-\c@savedliste=\count401
-\c@listf=\count402
-\c@savedlistf=\count403
-\c@location=\count404
-\c@savedlocation=\count405
-\c@organization=\count406
-\c@savedorganization=\count407
-\c@origlocation=\count408
-\c@savedoriglocation=\count409
-\c@origpublisher=\count410
-\c@savedorigpublisher=\count411
-\c@publisher=\count412
-\c@savedpublisher=\count413
-\c@language=\count414
-\c@savedlanguage=\count415
-\c@origlanguage=\count416
-\c@savedoriglanguage=\count417
-\c@pageref=\count418
-\c@savedpageref=\count419
-\shorthandwidth=\skip64
-\shortjournalwidth=\skip65
-\shortserieswidth=\skip66
-\shorttitlewidth=\skip67
-\shortauthorwidth=\skip68
-\shorteditorwidth=\skip69
-\locallabelnumberwidth=\skip70
-\locallabelalphawidth=\skip71
-\localshorthandwidth=\skip72
-\localshortjournalwidth=\skip73
-\localshortserieswidth=\skip74
-\localshorttitlewidth=\skip75
-\localshortauthorwidth=\skip76
-\localshorteditorwidth=\skip77
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count420
-\c@textcitetotal=\count421
-\c@textcitemaxnames=\count422
-\c@biburlbigbreakpenalty=\count423
-\c@biburlbreakpenalty=\count424
-\c@biburlnumpenalty=\count425
-\c@biburlucpenalty=\count426
-\c@biburllcpenalty=\count427
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count428
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count429
-\c@bbx:relatedtotal=\count430
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-10-10 L3 programming layer (loader) 
- (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-10-10 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count431
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-10-10 L3 backend support: XeTeX
+\g__graphics_track_int=\count300
 \l__pdf_internal_box=\box100
+\g__pdf_backend_object_int=\count301
+\g__pdf_backend_annotation_int=\count302
+\g__pdf_backend_link_int=\count303
 ))
-Package biblatex Info: ... and expl3
-(biblatex)             2023-10-10 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2023-10-10 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count304
+\l__fontspec_language_int=\count305
+\l__fontspec_strnum_int=\count306
+\l__fontspec_tmp_int=\count307
+\l__fontspec_tmpa_int=\count308
+\l__fontspec_tmpb_int=\count309
+\l__fontspec_tmpc_int=\count310
+\l__fontspec_em_int=\count311
+\l__fontspec_emdef_int=\count312
+\l__fontspec_strong_int=\count313
+\l__fontspec_strongdef_int=\count314
+\l__fontspec_tmpa_dim=\dimen170
+\l__fontspec_tmpb_dim=\dimen171
+\l__fontspec_tmpc_dim=\dimen172
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2023/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscripts
+\subsupersep=\dimen173
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/metalogo/metalogo.sty
+Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
+\xl@everylogo=\toks26
+\xl@@everylogo=\toks27
+LaTeX Info: Redefining \TeX on input line 193.
+LaTeX Info: Redefining \LaTeX on input line 202.
+LaTeX Info: Redefining \LaTeXe on input line 219.
+)
+\l__xetex_show_hyphens_wrapping_box=\box101
+\l__xetex_show_hyphens_temp_box=\box102
+\l__xetex_show_hyphens_final_box=\box103
+\g__xetex_show_hyphens_word_box=\box104
+) (/usr/local/texlive/2023/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many other characters in Unicode lower plane
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+)
+\tipaTiiicode=\count315
+\tipasavetokens=\toks28
+\tipachecktokens=\toks29
+)
+
+Package fontspec Info: Font family 'LinuxLibertine(0)' created for font 'Linux
+(fontspec)             Libertine' with options
+(fontspec)             [Mapping=tex-text,Ligatures=TeX,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 
-/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty:45: Fatal Package fontspec Error: The fontspec package requires either XeTeX or
-(fontspec)                      LuaTeX.
-(fontspec)                      
-(fontspec)                      You must change your typesetting engine to,
-(fontspec)                      e.g., "xelatex" or "lualatex" instead of
-(fontspec)                      "latex" or "pdflatex".
-
-Type <return> to continue.
- ...                                              
-                                                  
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
-
-LaTeX does not know anything more about this error, sorry.
-
-Try typing <return> to proceed.
-If that doesn't work, type X <return> to quit.
-
-This is a fatal error: LaTeX will abort.
+Package fontspec Info: Droid Sans Mono scale = 0.8039029203122147.
 
 
+Package fontspec Info: Could not resolve font "Droid Sans Mono/BI" (it
+(fontspec)             probably doesn't exist).
 
-/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty:45: Emergency stop.
-<read *> 
-         
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
-*** (cannot \read from terminal in nonstop modes)
 
- 
+Package fontspec Info: Could not resolve font "Droid Sans Mono/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Droid Sans Mono/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Droid Sans Mono scale = 0.8039029203122147.
+
+
+Package fontspec Info: Font family 'DroidSansMono(0)' created for font 'Droid
+(fontspec)             Sans Mono' with options
+(fontspec)             [Mapping=tex-text,WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8039029203122147]"Droid Sans
+(fontspec)             Mono/OT:language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: Font family 'LinuxLibertine(1)' created for font 'Linux
+(fontspec)             Libertine' with options
+(fontspec)             [Mapping=tex-text,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/B/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/I/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Linux
+(fontspec)             Libertine/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+
+ (./MarkosDelaportas_CaveCommunications.aux)
+\openout1 = `MarkosDelaportas_CaveCommunications.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 34.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 34.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 34.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
+LaTeX Font Info:    Redeclaring math accent \check on input line 34.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/LinuxLibertine(1)/m/n on input line 34.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/LinuxLibertine(1)/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/LinuxLibertine(1)/m/n --> TU/LinuxLibertine(1)/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/LinuxLibertine(1)/m/it on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/LinuxLibertine(1)/b/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/LinuxLibertine(0)/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/DroidSansMono(0)/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/LinuxLibertine(1)/m/n --> TU/LinuxLibertine(1)/b/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/LinuxLibertine(1)/b/it on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/LinuxLibertine(0)/b/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/DroidSansMono(0)/b/n on input line 34.
+LaTeX Font Info:    Font shape `TU/DroidSansMono(0)/m/n' will be
+(Font)              scaled to size 16.67308pt on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/DroidSansMono(0)/m/n' will be
+(Font)              scaled to size 11.57628pt on input line 35.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[] \TU/LinuxLibertine(1)/b/n/8 Abstract–Τα ασύρματα δίκτυα επικοι-νωνίας
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 55--56
+\TU/LinuxLibertine(1)/b/n/8 η αποτελεσματικότητά τους μπορεί να παρεμποδιστεί
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\TU/LinuxLibertine(1)/b/n/8 κατεστραμέννα κτήρια ή στον τομέα της γεωργίας
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\TU/LinuxLibertine(1)/b/n/8 γίνει προκειμένου να μοντελοποιηθεί σε περιβάλλον
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 64--70
+\TU/LinuxLibertine(1)/m/n/8 Αυτά τα δίκτυα έχουν σχεδιαστεί για να υποστηρίζουν
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
+\TU/LinuxLibertine(1)/m/n/8 Σε αυτό το κομμάτι παρουσιάζονται διάφοροι τρόποι
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]\TU/LinuxLibertine(1)/m/n/8 Παρακάτω παρατείθενται διάφορες τοπολογίες και
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 90--91
+\TU/LinuxLibertine(1)/m/n/8 τεχνικές με συνδιασμό ενός εκ των παραπάνω τρόπων
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 90--91
+\TU/LinuxLibertine(1)/m/n/8 προσσέγισης και αστερισμού προκειμένουν να επιτευχθεί
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[]\TU/LinuxLibertine(1)/m/n/8 «κόμβους κορμού» που είναι τοποθετημένο στα
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+[]\TU/LinuxLibertine(1)/m/n/8 «Κινητοί κόμβοι», οι οποίοι έχουν παρόμοια
+ []
+
+[1
+
+]
+File: img/ICWMSN-WMSNpng.png Graphic file (type bmp)
+<img/ICWMSN-WMSNpng.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+\TU/LinuxLibertine(1)/m/n/8 Οι κινητοί κόμβοι μεταφέρονται από σπηλαιολόγους
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+\TU/LinuxLibertine(1)/m/n/8 και περιλαμβάνουν χαρακτηριστικά πέρα από τα
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+\TU/LinuxLibertine(1)/m/n/8 τυπικά ενός ασύρματου αισθητήρα κόμβος για την
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+\TU/LinuxLibertine(1)/m/n/8 αλληλεπίδραση με τους σπηλαιολόγους. Αυτά τα
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+\TU/LinuxLibertine(1)/m/n/8 χαρακτηριστικά περιλαμβάνει μια γραφική οθόνη, ένα
+ []
+
+
+Overfull \hbox (3.5919pt too wide) in paragraph at lines 112--118
+[] 
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 125--126
+\TU/LinuxLibertine(1)/m/n/8 ορισμένα πρότυπα επικοινωνίας τα οποία βασίζονται σε
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+\TU/LinuxLibertine(1)/m/n/8 καλωδίου, χρησιμοποιώντας τη χωρητικότητα σύζευξης
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\TU/LinuxLibertine(1)/m/n/8 τη σκοπιμότητα των υπόγειων ασύρματων δικτύων
+ []
+
+[2] (./MarkosDelaportas_CaveCommunications.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-10-10>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 10191 strings out of 474504
- 186435 string characters out of 5752696
- 1921040 words of memory out of 5000000
- 32104 multiletter control sequences out of 15000+600000
- 558367 words of font info for 37 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 66i,0n,81p,498b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
-/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty:45:  ==> Fatal error occurred, no output PDF file produced!
+ 9307 strings out of 475161
+ 193389 string characters out of 5766720
+ 1933671 words of memory out of 5000000
+ 30965 multiletter control sequences out of 15000+600000
+ 561591 words of font info for 84 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 79i,6n,119p,1077b,292s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on MarkosDelaportas_CaveCommunications.xdv (2 pages, 73536 bytes).

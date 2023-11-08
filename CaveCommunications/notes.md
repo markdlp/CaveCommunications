@@ -1,45 +1,4 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
-
-\documentclass[12pt]{article}
-\usepackage{geometry}           % See geometry.pdf to learn the layout options. There are lots.
-\geometry{letterpaper}          % ... or a4paper or a5paper or ... 
-%\geometry{landscape}           % Activate for for rotated page geometry
-%\usepackage[parfill]{parskip}  % Activate to begin paragraphs with an empty line rather than an indent
-
-\usepackage{blindtext}
-\usepackage{multicol}
-
-\usepackage{graphicx}
-\usepackage{amssymb}
-\usepackage{enumitem}
-\usepackage{amsmath}
-
-\usepackage{fontspec,xltxtra,xunicode}
-%\usepackage{microtype}
-\defaultfontfeatures{Mapping=tex-text}
-\setsansfont[Ligatures=TeX]{Linux Libertine}
-\setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
-
-
-\setmainfont{Linux Libertine}
-
-\renewcommand{\thesection}{\Roman{section}} 
-\renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
-
-\title{\texttt{Cave Communications}}
-\author{\texttt{Μάρκος Δελαπόρτας 1316}}
-\date{}
-
-\begin{document}
-\maketitle
-
-%\texttt{loρεμ} %? Lato
-%\textsf{λοrem} %? Serif
-%\newpage
-
-\begin{multicols}{2}
-    \scriptsize \textbf{
+\scriptsize \textbf{
         Abstract--Τα ασύρματα δίκτυα επικοι-νωνίας αισθητήρων έχουν γίνει
         πανταχού παρόντα, τόσο στην καθημερινή ζωή, όσο και σε πολλές βιομηχανίες. 
         Ωστόσο η αποτελεσματικότητά τους μπορεί να παρεμποδιστεί σε
@@ -128,5 +87,3 @@
 
     \textit{\textbf{Συμπέρασμα}}: Συμπερασματικά, η εργασία καταδεικνύει τη σκοπιμότητα των υπόγειων ασύρματων δικτύων επικοινωνίας σε υπόγεια περιβάλλοντα. Αυτά τα δίκτυα μπορούν να υποστηρίξουν μικρό αριθμό πελατών, με μικρά εύρη ζώνης και υψηλή ανοχή καθυστέρησης, και μπορούν να σχεδιαστούν ώστε να είναι αξιόπιστα και αποτελεσματικά σε τέτοια απαιτητικά περιβάλλοντα. Η μελέτη παρέχει ένα σημείο εκκίνησης για μελλοντική έρευνα σε αυτόν τον τομέα.
 \end{multicols}
-
-\end{document}

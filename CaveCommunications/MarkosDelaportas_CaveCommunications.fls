@@ -95,13 +95,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-latex.lde
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-latex.lde
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-greek.ldf
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-greek.ldf
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/xgreek-fixes.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/xgreek-fixes.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/xgreek-fixes.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
-INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
 INPUT ./MarkosDelaportas_CaveCommunications.aux
 INPUT ./MarkosDelaportas_CaveCommunications.aux
 INPUT MarkosDelaportas_CaveCommunications.aux

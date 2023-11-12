@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.22)  12 NOV 2023 20:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.22)  12 NOV 2023 22:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -596,89 +596,95 @@ Underfull \hbox (badness 6559) in paragraph at lines 83--90
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 112--124
+\TU/LinuxLibertine(0)/m/n/8 με την ασύρματη επικοινωνία σε σπήλεα και υπόγεια
+ []
+
+
+Overfull \hbox (11.71057pt too wide) in paragraph at lines 125--125
+[]\TU/FiraCode(0)/b/n/12 Βασικοί Τρόποι Προσέγγισης 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--133
 \TU/LinuxLibertine(0)/m/n/8 Σε αυτό το κομμάτι παρουσιάζονται διάφοροι τρόποι
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 []\TU/LinuxLibertine(0)/m/n/8 Παρακάτω παρατείθενται διάφορες τοπολογίες και
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 122--123
+Underfull \hbox (badness 8151) in paragraph at lines 137--138
 \TU/LinuxLibertine(0)/m/n/8 τεχνικές με συνδιασμό ενός εκ των παραπάνω τρόπων
  []
 
 
-Underfull \hbox (badness 6428) in paragraph at lines 122--123
+Underfull \hbox (badness 6428) in paragraph at lines 137--138
 \TU/LinuxLibertine(0)/m/n/8 προσσέγισης και αστερισμού προκειμένουν να επιτευχθεί
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []\TU/LinuxLibertine(0)/m/n/8 «κόμβους κορμού» που είναι τοποθετημένο στα
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/LinuxLibertine(0)/m/n/8 «Κινητοί κόμβοι», οι οποίοι έχουν παρόμοια
  []
 
 [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+[]\TU/LinuxLibertine(0)/m/n/8 «Κινητοί κόμβοι», οι οποίοι έχουν παρόμοια
+ []
+
 File: img/ICWMSN-WMSNpng.png Graphic file (type bmp)
 <img/ICWMSN-WMSNpng.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--150
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
 \TU/LinuxLibertine(0)/m/n/8 Οι κινητοί κόμβοι μεταφέρονται από σπηλαιολόγους
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--150
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
 \TU/LinuxLibertine(0)/m/n/8 και περιλαμβάνουν χαρακτηριστικά πέρα από τα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--150
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
 \TU/LinuxLibertine(0)/m/n/8 τυπικά ενός ασύρματου αισθητήρα κόμβος για την
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--150
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
 \TU/LinuxLibertine(0)/m/n/8 αλληλεπίδραση με τους σπηλαιολόγους. Αυτά τα
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--150
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
 \TU/LinuxLibertine(0)/m/n/8 χαρακτηριστικά περιλαμβάνει μια γραφική οθόνη, ένα
  []
 
 
-Overfull \hbox (3.5919pt too wide) in paragraph at lines 144--150
+Overfull \hbox (3.5919pt too wide) in paragraph at lines 159--165
 [] 
  []
 
 
-LaTeX Font Warning: Font shape `TU/AndaleMono(0)/b/n' undefined
-(Font)              using `TU/AndaleMono(0)/m/n' instead on input line 151.
-
-
-Underfull \hbox (badness 5756) in paragraph at lines 157--158
+Underfull \hbox (badness 5756) in paragraph at lines 172--173
 \TU/LinuxLibertine(0)/m/n/8 ορισμένα πρότυπα επικοινωνίας τα οποία βασίζονται σε
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 \TU/LinuxLibertine(0)/m/n/8 καλωδίου, χρησιμοποιώντας τη χωρητικότητα σύζευξης
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 \TU/LinuxLibertine(0)/m/n/8 τη σκοπιμότητα των υπόγειων ασύρματων δικτύων
  []
 
+[2]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -708,23 +714,19 @@ braces):
 >  {latex/DefineCommandsCmd}  =>  {use_none:n}.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}.
-[2] (./MarkosDelaportas_CaveCommunications.aux)
+ [3] (./MarkosDelaportas_CaveCommunications.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
  ) 
 Here is how much of TeX's memory you used:
- 11108 strings out of 475161
- 230023 string characters out of 5766720
- 1938671 words of memory out of 5000000
- 32721 multiletter control sequences out of 15000+600000
- 561639 words of font info for 90 fonts, out of 8000000 for 9000
+ 11105 strings out of 475161
+ 229979 string characters out of 5766720
+ 1929671 words of memory out of 5000000
+ 32719 multiletter control sequences out of 15000+600000
+ 561631 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,6n,93p,1077b,347s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,6n,93p,1077b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MarkosDelaportas_CaveCommunications.xdv (2 pages, 73424 bytes).
+Output written on MarkosDelaportas_CaveCommunications.xdv (3 pages, 79496 bytes).

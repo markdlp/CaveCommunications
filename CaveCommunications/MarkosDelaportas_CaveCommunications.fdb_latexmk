@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 0 "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications.pdf" "MarkosDelaportas_CaveCommunications" 0 -1
-  "MarkosDelaportas_CaveCommunications.xdv" 1699485361 74132 d60c83fe1d7785103ee48e4101e3af44 "xelatex"
+["xdvipdfmx"] 1699750586 "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications.pdf" "MarkosDelaportas_CaveCommunications" 1699750586 2
+  "MarkosDelaportas_CaveCommunications.xdv" 1699750585 75772 ca1b5122452a88b2224d3d39dfe0d88f "xelatex"
   (generated)
   "MarkosDelaportas_CaveCommunications.pdf"
   (rewritten before read)
-["xelatex"] 1699485357 "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications" 1699485361 2
-  "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" 1699485351 15011 1d046f4ac9030cdd019af58043d8b4c0 ""
+["xelatex"] 1699750554 "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications" 1699750586 0
+  "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" 1699750292 15107 58a2f30b0baa74c8d2dc7f10d08c6a0e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -71,8 +71,8 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1697057529 41009 84b61f42d16d06bedb915f57aa2374cf ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1697986898 10823005 5919229af57b33ace8c7d77977ed20d3 ""
   "/usr/local/texlive/2023/texmf.cnf" 1697986586 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "MarkosDelaportas_CaveCommunications.aux" 1699485361 1445 894439c21fcf373788ff4857c1f40c34 "xelatex"
-  "MarkosDelaportas_CaveCommunications.tex" 1699485351 15011 1d046f4ac9030cdd019af58043d8b4c0 ""
+  "MarkosDelaportas_CaveCommunications.aux" 1699750585 156979 8f1bcbcf692179b9051c95e18ebd54ca "xelatex"
+  "MarkosDelaportas_CaveCommunications.tex" 1699750292 15107 58a2f30b0baa74c8d2dc7f10d08c6a0e ""
   "img/ICWMSN-WMSNpng.png" 1697996974 106794 d1c63dc9353f719aaa653a00f03c359a ""
   (generated)
   "MarkosDelaportas_CaveCommunications.aux"

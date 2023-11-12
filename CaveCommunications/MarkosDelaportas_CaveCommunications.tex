@@ -23,15 +23,19 @@
 \setdefaultlanguage{greek}
 \setotherlanguages{english}
 
+\setmainlanguage{greek}
+\setotherlanguage{english}
+\setTransitionsForGreek{\selectlanguage{greek}}{\selectlanguage{english}}
+
 \defaultfontfeatures{Mapping=tex-text}
+
+\setmainfont[Kerning=On,Mapping=tex-text]{EB Garamond}
+\setmainfont{Literata}
 \setsansfont[Ligatures=TeX]{Linux Libertine}
-\setmonofont[Scale=MatchLowercase]{Droid Sans Mono}
+\setmonofont[Scale=MatchLowercase]{Ubuntu}
 
-\setmainfont[Kerning=On,Mapping=tex-text]{Linux Libertine}
-\setmainfont{Linux Libertine}
-
-\newfontfamily\greekfont[Script=Greek]{Linux Libertine}
-\newfontfamily\greekfontsf[Script=Greek]{Linux Libertine}
+\newfontfamily\greekfont[Script=Greek]{Ubuntu}
+\newfontfamily\greekfontsf[Script=Greek]{Literata}
 
 \renewcommand{\thesection}{\Roman{section}} 
 \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
@@ -48,7 +52,7 @@
 %\newpage
 
 \begin{multicols}{2}
-    \scriptsize \textbf{
+    \scriptsize { %\textbf
         Abstract--Τα ασύρματα δίκτυα επικοι-νωνίας αισθητήρων έχουν γίνει
         πανταχού παρόντα, τόσο στην καθημερινή ζωή, όσο και σε πολλές βιομηχανίες. 
         Ωστόσο η αποτελεσματικότητά τους μπορεί να παρεμποδιστεί σε
@@ -63,7 +67,7 @@
         μονοπατιού και η ισχύς του σήματος λήψης.
     }
     
-    \section{\textit{\normalsize Introduction}}:
+    \section{\textit{\normalsize Εισαγωγή}}:
     % todo: note what has not been done in the sector, like there are technoligies in lace but not for a specific matter discussed.
     %\textit{\textbf{Ιστορικό}}: 
     Since the appearence of the first wireless mobile communications,

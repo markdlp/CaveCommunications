@@ -63,8 +63,8 @@
             "env": {}
         },
         {
-            "name": "bibtex",
-            "command": "bibtex",
+            "name": "biber",
+            "command": "biber",
             "args": [
                 "%DOCFILE%"
             ],
@@ -133,7 +133,7 @@
             "name": "latexmk (xelatexmk)",
             "tools": [
                 "xelatexmk",
-                "bibtex",
+                "biber",
                 "xelatexmk",
                 "xelatexmk"
             ]

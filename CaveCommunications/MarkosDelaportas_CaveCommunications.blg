@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[2] Config.pm:310> INFO - Logfile is 'MarkosDelaportas_CaveCommunications.blg'
-[326] biber:340> INFO - === Wed Nov 15, 2023, 02:02:42
-[418] Biber.pm:419> INFO - Reading 'MarkosDelaportas_CaveCommunications.bcf'
-[664] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
-[705] Biber.pm:4419> INFO - Processing section 0
-[735] Biber.pm:4610> INFO - Looking for bibtex file 'ref.bib' for section 0
-[748] bibtex.pm:1713> INFO - LaTeX decoding ...
-[931] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
-[1175] UCollate.pm:68> INFO - Overriding locale 'latex' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1179] UCollate.pm:68> INFO - Overriding locale 'latex' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1180] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'latex'
-[1181] Biber.pm:4245> INFO - No sort tailoring available for locale 'latex'
-[1213] bbl.pm:660> INFO - Writing 'MarkosDelaportas_CaveCommunications.bbl' with encoding 'UTF-8'
-[1240] bbl.pm:763> INFO - Output to MarkosDelaportas_CaveCommunications.bbl
+[1] Config.pm:310> INFO - Logfile is 'MarkosDelaportas_CaveCommunications.blg'
+[235] biber-MSWIN64:340> INFO - === 
+[288] Biber.pm:419> INFO - Reading 'MarkosDelaportas_CaveCommunications.bcf'
+[509] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
+[562] Biber.pm:4419> INFO - Processing section 0
+[592] Biber.pm:4610> INFO - Looking for bibtex file 'ref.bib' for section 0
+[681] bibtex.pm:1713> INFO - LaTeX decoding ...
+[809] bibtex.pm:1519> INFO - Found BibTeX data source 'ref.bib'
+[939] UCollate.pm:68> INFO - Overriding locale 'latex' defaults 'variable = shifted' with 'variable = non-ignorable'
+[939] UCollate.pm:68> INFO - Overriding locale 'latex' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[939] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'latex'
+[939] Biber.pm:4245> INFO - No sort tailoring available for locale 'latex'
+[974] bbl.pm:660> INFO - Writing 'MarkosDelaportas_CaveCommunications.bbl' with encoding 'UTF-8'
+[984] bbl.pm:763> INFO - Output to MarkosDelaportas_CaveCommunications.bbl

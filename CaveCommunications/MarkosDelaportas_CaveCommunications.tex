@@ -1,4 +1,4 @@
-\documentclass[12pt]{paper}
+\documentclass[12pt]{article}
 \usepackage{geometry}
 \geometry{ b4paper, total={220mm,320mm}, left=20mm, top=15mm }
 
@@ -7,6 +7,8 @@
 
 \usepackage{blindtext}
 \usepackage{multicol}
+
+\usepackage{fancyhdr, lastpage, setspace}
 
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -42,10 +44,19 @@
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsection}{\thesection.\Roman{subsection}}
 
-\title{\textsf{ Cave Communications}}
-\subtitle{Δίκτυα Νέας Γενιάς \& Επικοινωνίες\\ Τμήμα Ηλεκτρολόγων Μηχανικών \& Μηχανικών Υπολογιστών \\Πανεπιστήμοιο Δυτικής Μακεδονίας} 
+\onehalfspacing
+
+\lhead{Μάρκος Δελαπόρτας} \rhead{ece01316@uowm.gr}
+\cfoot{Page \thepage\ of \pageref{lastpage}}
+
+\title{
+    \textsf{ Cave Communications}\\
+    \textsf{Δίκτυα Νέας Γενιάς \& Επικοινωνίες}\\
+    \textsf{\Large Τμήμα Ηλεκτρολόγων Μηχανικών \& Μηχανικών Υπολογιστών}\\
+    \textsf{\large Πανεπιστήμοιο Δυτικής Μακεδονίας}
+}
 \author{\textsf{Μάρκος Δελαπόρτας} \footnote{E-mail: ece01316@uowm.gr}}
-\date{Νοέμβριος 2023}
+\date{\textsf{Νοέμβριος 2023}}
 
 \begin{document}
 \maketitle

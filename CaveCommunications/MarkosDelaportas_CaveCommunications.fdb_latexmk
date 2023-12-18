@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber MarkosDelaportas_CaveCommunications"] 1700003256 "MarkosDelaportas_CaveCommunications.bcf" "MarkosDelaportas_CaveCommunications.bbl" "MarkosDelaportas_CaveCommunications" 1700006559 0
+["biber MarkosDelaportas_CaveCommunications"] 1700055834 "MarkosDelaportas_CaveCommunications.bcf" "MarkosDelaportas_CaveCommunications.bbl" "MarkosDelaportas_CaveCommunications" 1700055852 0
   "./ref.bib" 1699921168 39775 608896084ad09e5678509664815d9c09 ""
-  "MarkosDelaportas_CaveCommunications.bcf" 1700006557 108321 cb26b57f88c766d05e0c34594f8e9945 "xelatex"
+  "MarkosDelaportas_CaveCommunications.bcf" 1700055850 108321 cb26b57f88c766d05e0c34594f8e9945 "xelatex"
   (generated)
   "MarkosDelaportas_CaveCommunications.bbl"
   "MarkosDelaportas_CaveCommunications.blg"
   (rewritten before read)
-["xdvipdfmx"] 1700006558 "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications.pdf" "MarkosDelaportas_CaveCommunications" 1700006559 0
-  "MarkosDelaportas_CaveCommunications.xdv" 1700006557 110316 bb507a9f791a28d137599730f970c9ed "xelatex"
+["xdvipdfmx"] 1700055851 "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications.pdf" "MarkosDelaportas_CaveCommunications" 1700055852 0
+  "MarkosDelaportas_CaveCommunications.xdv" 1700055850 110656 4281fc1ef921326796a8ee25990ffe13 "xelatex"
   (generated)
   "MarkosDelaportas_CaveCommunications.pdf"
   (rewritten before read)
-["xelatex"] 1700006551 "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications" 1700006559 0
-  "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" 1700006549 18218 6e3e608a51b7ca397a9e4a4679427b54 ""
+["xelatex"] 1700055844 "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" "MarkosDelaportas_CaveCommunications.xdv" "MarkosDelaportas_CaveCommunications" 1700055852 0
+  "/home/mark/seed/prjs/NewGenerationNetworks-Comunications/CaveCommunications/MarkosDelaportas_CaveCommunications.tex" 1700055825 18451 624abecabe3981acf9f34656fa56c227 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -27,7 +27,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
@@ -52,6 +51,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty" 1686341992 88371 d84032c0f422c3d1e282266c01bef237 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty" 1686341992 4474 b811654f4bf125f11506d13d13647efb ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty" 1686341992 2444 0d0c1ee65478277e8015d65b86983da2 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls" 1686341992 20144 fbcf51733730d8f1a62143512ff5b1fe ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty" 1686341992 5119 50695b8f743569fbac71a83f7ef51fe2 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty" 1686341992 5319 5435f8f7051e23a851a1c665c5b84e22 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/base/size12.clo" 1686341992 8449 9de778d73ba774a5f2bd601f23f8922e ""
@@ -73,6 +73,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/blindtext/blindtext.sty" 1325892463 47295 de48b7f8ebf4b54709a2f6b2c7106dd5 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1642282977 162076 2f6d31c4632f2730c57b9c0fda038e15 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty" 1642282977 1656 7e824878bad4df5a3e8bba4e463d9126 ""
@@ -89,14 +90,17 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty" 1696969620 6547 6af83e65a574ea8386fd56eafb2ce334 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty" 1696969620 4674 15ab6bdfc97f65b00e59c2867851f715 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1696969620 9327 c30c00c0072edba199ede5889311aaa9 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty" 1697402539 2868 94ccb360e6e4443cad221f78a5cbb6a8 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage2e.sty" 1697402539 2720 a038de4136aa4a721c8ef0dc226ae6b5 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpagemodern.sty" 1697402539 9166 74f0d39535736e850fd2f2796fd37674 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.def" 1284153563 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/makecmds/makecmds.sty" 1252026102 2296 b097750ac8010251101d5bbe1da4d1be ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/metalogo/metalogo.sty" 1275236382 7002 8fdf43c505e48e13c2cea042a8a8671c ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/paper/paper.cls" 1212517464 35575 92db53371de03f4dddf2c4fcd733083f ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/gloss-latex.lde" 1696191001 1021 a295ce9d5f57c36ef976865cba8121a1 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/polyglossia/polyglossia.sty" 1696191001 91077 8ee97823f81de80312d466ec7557867a ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/realscripts/realscripts.sty" 1455402752 4558 41199fa3acb4eb54622019e50ccfb65d ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty" 1670275497 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tipa/t3cmr.fd" 1137110956 1257 fd5b1c2f0106f9cf12cdb2ff961987c5 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tipa/t3enc.def" 1137110956 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty" 1686341992 32515 51caec75eda9c8890135f12f1a4eddc3 ""
@@ -109,10 +113,10 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1697057529 41009 84b61f42d16d06bedb915f57aa2374cf ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1697986898 10823005 5919229af57b33ace8c7d77977ed20d3 ""
   "/usr/local/texlive/2023/texmf.cnf" 1697986586 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "MarkosDelaportas_CaveCommunications.aux" 1700006557 2590 b6a20b2c3f9cc1ad7524d5a8bda89592 "xelatex"
-  "MarkosDelaportas_CaveCommunications.bbl" 1700006327 20355 9884977cb513484c44452028a620c1bd "biber MarkosDelaportas_CaveCommunications"
-  "MarkosDelaportas_CaveCommunications.run.xml" 1700006557 2616 9b723ff07a7ffd2ba0004ac09f28d005 "xelatex"
-  "MarkosDelaportas_CaveCommunications.tex" 1700006549 18218 6e3e608a51b7ca397a9e4a4679427b54 ""
+  "MarkosDelaportas_CaveCommunications.aux" 1700055850 2678 e41a93620d0ad38e4b1568b647dbc087 "xelatex"
+  "MarkosDelaportas_CaveCommunications.bbl" 1700055838 20355 9884977cb513484c44452028a620c1bd "biber MarkosDelaportas_CaveCommunications"
+  "MarkosDelaportas_CaveCommunications.run.xml" 1700055850 2616 9b723ff07a7ffd2ba0004ac09f28d005 "xelatex"
+  "MarkosDelaportas_CaveCommunications.tex" 1700055825 18451 624abecabe3981acf9f34656fa56c227 ""
   (generated)
   "MarkosDelaportas_CaveCommunications.aux"
   "MarkosDelaportas_CaveCommunications.bcf"

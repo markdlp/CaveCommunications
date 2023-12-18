@@ -26,7 +26,7 @@
                 "-file-line-error",
                 "-lualatex",
                 "-outdir=%OUTDIR%",
-                "%DOC%"
+                "%DOCFILE%"
             ],
             "env": {}
         },
@@ -44,7 +44,7 @@
             "env": {}
         },
         {
-            "name": "latexmk_rconly",
+            "name": "latexmk_rconly", 
             "command": "latexmk",
             "args": [
                 "%DOC%"

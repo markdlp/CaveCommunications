@@ -1,5 +1,5 @@
 {
-    "latex-workshop.latex.recipe.default": "latexmk (xelatexmk)",
+    "latex-workshop.latex.recipe.default": "latexmk (lualatexmk)",
     "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
     "latex-workshop.latex.autoBuild.run":"onSave",
     "latex-workshop.latex.tools": [
@@ -25,6 +25,7 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-lualatex",
+                "-aux-directory=tmp",
                 "-outdir=%OUTDIR%",
                 "%DOCFILE%"
             ],
@@ -38,6 +39,7 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-xelatex",
+                "-aux-directory=tmp",
                 "-outdir=%OUTDIR%",
                 "%DOC%"
             ],
@@ -66,6 +68,8 @@
             "name": "biber",
             "command": "biber",
             "args": [
+                "--input-directory=tmp",
+                "--output-directory=tmp",
                 "%DOCFILE%"
             ],
             "env": {}
@@ -130,12 +134,12 @@
     ],
     "latex-workshop.latex.recipes": [
         {
-            "name": "latexmk (xelatexmk)",
+            "name": "latexmk (lualatexmk)",
             "tools": [
-                "xelatexmk",
+                "lualatexmk",
                 "biber",
-                "xelatexmk",
-                "xelatexmk"
+                "lualatexmk",
+                "lualatexmk"
             ]
         }
     ]

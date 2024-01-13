@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.18)  11 JAN 2024 22:17
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.18)  13 JAN 2024 18:04
  restricted system commands enabled.
  file:line:error style messages enabled.
 **MarkosDelaportas_CaveCommunications.tex
@@ -1161,31 +1161,31 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 )
 
 LaTeX Font Warning: Font shape `TU/SegoeUIVariable(0)/b/n' undefined
-(Font)              using `TU/SegoeUIVariable(0)/m/n' instead on input line 77.
+(Font)              using `TU/SegoeUIVariable(0)/m/n' instead on input line 76.
 
 luaotfload | aux : no font with id -1
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 149.
+(multicol)                Footnotes on page 1 might be wrong on input line 150.
 
 [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 182.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'jourvol' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 182.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'number' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 182.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 182.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1200,15 +1200,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 182.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 182.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 182.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1219,19 +1219,19 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'june' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 182.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 182.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 182.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 182.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1242,15 +1242,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 182.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'jourvol' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 182.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 182.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1268,15 +1268,15 @@ Package biblatex Warning: Using fallback definition for \mkbibordinal.
 
 
 Package biblatex Warning: Bibliography string 'march' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 182.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 182.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 182.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1287,11 +1287,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 182.
+(biblatex)                at entry 'walsh_communications_2018' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 182.
+(biblatex)                at entry 'walsh_communications_2018' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1302,19 +1302,19 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'march' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 182.
+(biblatex)                at entry 'walsh_communications_2018' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 182.
+(biblatex)                at entry 'walsh_communications_2018' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 182.
+(biblatex)                at entry 'walsh_communications_2018' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 182.
+(biblatex)                at entry 'walsh_communications_2018' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1325,15 +1325,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'jourvol' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 182.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'number' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 182.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 182.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1344,15 +1344,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'december' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 182.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 182.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 182.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1363,7 +1363,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 182.
+(biblatex)                at entry 'branch_fifth_2021' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1374,19 +1374,19 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'october' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 182.
+(biblatex)                at entry 'branch_fifth_2021' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 182.
+(biblatex)                at entry 'branch_fifth_2021' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 182.
+(biblatex)                at entry 'branch_fifth_2021' on input line 183.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 182.
+(biblatex)                at entry 'branch_fifth_2021' on input line 183.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1416,12 +1416,12 @@ Here is how much of LuaTeX's memory you used:
  125049,1977958 words of node,token memory allocated
  717 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 6 glue, 4 kern, 1 penalty, 1 margin_kern, 4 glyph, 15 attribute, 73 glue_spec, 15 attribute_list, 5 write nodes
-   avail lists: 1:1,2:867,3:442,4:154,5:86,6:84,7:13922,8:67,9:346,10:17,11:276
+   avail lists: 2:867,3:442,4:154,5:86,6:86,7:13904,8:67,9:348,10:17,11:276
  50927 multiletter control sequences out of 65536+600000
  107 fonts using 21241535 bytes
  102i,11n,101p,2182b,1414s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/corbel.ttf><c:/Windows/Fonts/georgiai.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/Windows/Fonts/georgiab.ttf><c:/Windows/Fonts/georgiaz.ttf><c:/Windows/Fonts/georgia.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/Windows/Fonts/SegUIVar.ttf>
-Output written on MarkosDelaportas_CaveCommunications.pdf (2 pages, 154158 bytes).
+Output written on MarkosDelaportas_CaveCommunications.pdf (2 pages, 154274 bytes).
 
 PDF statistics: 87 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream

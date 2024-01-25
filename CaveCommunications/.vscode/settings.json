@@ -142,5 +142,9 @@
                 "lualatexmk"
             ]
         }
+    ],
+    "cSpell.language": "en,el",
+    "cSpell.words": [
+        "pathloss"
     ]
 }

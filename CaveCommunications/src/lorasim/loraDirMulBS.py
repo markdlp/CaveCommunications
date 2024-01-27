@@ -252,7 +252,7 @@ class myBS():
                 self.y = 3*maxY/4.0
 
 
-        print "BSx:", self.x, "BSy:", self.y
+        print ("BSx:", self.x, "BSy:", self.y)
 
         global graphics
         if (graphics):
@@ -294,10 +294,10 @@ class myNode():
                     else:
                         rounds = rounds + 1
                         if rounds == 100:
-                            print "could not place new node, giving up"
+                            print ("could not place new node, giving up")
                             exit(-2)
             else:
-                print "first node"
+                print( "first node")
                 self.x = posx
                 self.y = posy
                 found = 1
@@ -361,7 +361,7 @@ class myPacket():
 
         # log-shadow
         Lpl = Lpld0 + 10*gamma*math.log10(distance/d0)
-        print Lpl
+        print (Lpl)
         Prx = Ptx - GL - Lpl
 
         if (experiment == 3):
@@ -389,7 +389,7 @@ class myPacket():
             self.sf = minsf
             self.bw = minbw
             if (minairtime == 9999):
-                print "does not reach base station"
+                print( "does not reach base station")
                 exit(-1)
 
         # transmission range, needs update XXX
@@ -417,7 +417,7 @@ class myPacket():
         if experiment != 3:
             global minsensi
             self.lost = self.rssi < minsensi
-            print "node {} bs {} lost {}".format(self.nodeid, self.bs, self.lost)
+            print( "node {} bs {} lost {}".format(self.nodeid, self.bs, self.lost))
 
 
 #
@@ -440,7 +440,7 @@ def transmit(env,node):
         global nrBS
         for bs in range(0, nrBS):
            if (node in packetsAtBS[bs]):
-                print "ERROR: packet already in"
+                print( "ERROR: packet already in")
            else:
                 # adding packet if no collision
                 if (checkcollision(node.packet[bs])==1):
@@ -493,18 +493,18 @@ if len(sys.argv) >= 6:
     nrBS = int(sys.argv[5])
     if len(sys.argv) > 6:
         full_collision = bool(int(sys.argv[6]))
-    print "Nodes:", nrNodes
-    print "AvgSendTime (exp. distributed):",avgSendTime
-    print "Experiment: ", experiment
-    print "Simtime: ", simtime
-    print "nrBS: ", nrBS
+    print( "Nodes:", nrNodes)
+    print( "AvgSendTime (exp. distributed):",avgSendTime)
+    print( "Experiment: ", experiment)
+    print( "Simtime: ", simtime)
+    print( "nrBS: ", nrBS)
     if (nrBS > 4 and nrBS!=8 and nrBS!=6 and nrBS != 24):
-        print "too many base stations, max 4 or 6 or 8 base stations"
+        print( "too many base stations, max 4 or 6 or 8 base stations")
         exit(-1)
-    print "Full Collision: ", full_collision
+    print( "Full Collision: ", full_collision)
 else:
-    print "usage: ./loraDir <nodes> <avgsend> <experiment> <simtime> <basestation> [collision]"
-    print "experiment 0 and 1 use 1 frequency only"
+    print( "usage: ./loraDir <nodes> <avgsend> <experiment> <simtime> <basestation> [collision]")
+    print( "experiment 0 and 1 use 1 frequency only")
     exit(-1)
 
 
@@ -547,9 +547,9 @@ elif experiment == [3, 5]:
     minsensi = np.amin(sensi) ## Experiment 3 can use any setting, so take minimum
 
 Lpl = Ptx - minsensi
-print "amin", minsensi, "Lpl", Lpl
+print ("amin", minsensi, "Lpl", Lpl)
 maxDist = d0*(math.e**((Lpl-Lpld0)/(10.0*gamma)))
-print "maxDist:", maxDist
+print ("maxDist:", maxDist)
 
 # base station placement
 bsx = maxDist+10
@@ -563,9 +563,9 @@ maxBSReceives = 8
 
 
 maxX = 2 * maxDist * math.sin(60*(math.pi/180)) # == sqrt(3) * maxDist
-print "maxX ", maxX
+print( "maxX ", maxX)
 maxY = 2 * maxDist * math.sin(30*(math.pi/180)) # == maxdist
-print "maxY", maxY
+print( "maxY", maxY)
 
 
 # prepare graphics and add sink
@@ -621,34 +621,34 @@ with open('basestation.txt', 'w') as bfile:
 env.run(until=simtime)
 
 # print stats and save into file
-# print "nrCollisions ", nrCollisions
+print( "nrCollisions ", nrCollisions)
 # print list of received packets
 #print recPackets
-print "nr received packets", len(recPackets)
-print "nr collided packets", len(collidedPackets)
-print "nr lost packets", len(lostPackets)
+print( "nr received packets", len(recPackets))
+print( "nr collided packets", len(collidedPackets))
+print( "nr lost packets", len(lostPackets))
 
 #print "sent packets: ", sent
 #print "sent packets-collisions: ", sent-nrCollisions
 #print "received packets: ", len(recPackets)
 for i in range(0,nrBS):
-    print "packets at BS",i, ":", len(packetsRecBS[i])
-print "sent packets: ", packetSeq
+    print( "packets at BS",i, ":", len(packetsRecBS[i]))
+print( "sent packets: ", packetSeq)
 
 # data extraction rate
 der = len(recPackets)/float(packetSeq)
-print "DER:", der
+print( "DER:", der)
 #der = (nrReceived)/float(sent)
 #print "DER method 2:", der
 
 # this can be done to keep graphics visible
 if (graphics == 1):
-    raw_input('Press Enter to continue ...')
+    input('Press Enter to continue ...')
 
 # save experiment data into a dat file that can be read by e.g. gnuplot
 # name of file would be:  exp0.dat for experiment 0
-fname = "exp" + str(experiment) + "BS" + str(nrBS) + ".dat"
-print fname
+fname = "data/exp" + str(experiment) + "BS" + str(nrBS) + ".dat"
+print(fname)
 if os.path.isfile(fname):
     res = "\n" + str(nrNodes) + " " + str(der)
 else:
@@ -657,7 +657,7 @@ with open(fname, "a") as myfile:
     myfile.write(res)
 myfile.close()
 
-exit(-1)
+#exit(-1)
 #below not updated
 
 
@@ -670,4 +670,4 @@ for i in range(0,nrNodes):
 #    print "sent ", nodes[i].sent
     sent = sent + nodes[i].sent
     energy = (energy + nodes[i].packet.rectime * mA * V * nodes[i].sent)/1000.0
-print "energy (in mJ): ", energy
+print( "energy (in mJ): ", energy)

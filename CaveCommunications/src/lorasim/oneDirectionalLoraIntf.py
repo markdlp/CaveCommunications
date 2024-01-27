@@ -329,7 +329,7 @@ class myBS():
                 self.y = 4*maxY/5.0
 
         
-        print "BSx:", self.x, "BSy:", self.y
+        print( "BSx:", self.x, "BSy:", self.y)
 
         global graphics
         if (graphics):

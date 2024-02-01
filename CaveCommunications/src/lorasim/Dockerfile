@@ -1,22 +1,9 @@
-FROM python as compiler
-ENV PYTHONUNBUFFERED 1
+FROM python:3
 
 WORKDIR /usr/src/lorasim
-
-RUN python -m venv /opt/venv
-# Enable venv
-ENV PATH="/opt/venv/bin:$PATH"
 
 COPY requirements.txt /usr/src/lorasim/requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
-
-
-FROM python as runner
-WORKDIR /usr/src/lorasim
-COPY --from=compiler /opt/venv /opt/venv
-
-# Enable venv
-ENV PATH="/opt/venv/bin:$PATH"
 
 COPY . .
 

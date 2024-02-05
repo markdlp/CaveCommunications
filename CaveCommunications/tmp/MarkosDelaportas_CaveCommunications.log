@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.18)  1 FEB 2024 18:18
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.18)  5 FEB 2024 18:37
  restricted system commands enabled.
  file:line:error style messages enabled.
 **MarkosDelaportas_CaveCommunications.tex
@@ -665,8 +665,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip68
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 28.
-Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 27.
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -1224,30 +1224,30 @@ Package fontspec Info: Font family 'Corbel(0)' created for font 'Corbel' with
  (./tmp/MarkosDelaportas_CaveCommunications.aux)
 \openout1 = MarkosDelaportas_CaveCommunications.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 76.
  (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1305,7 +1305,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring ON on input line 77.
+Package hyperref Info: Link coloring ON on input line 76.
 (./tmp/MarkosDelaportas_CaveCommunications.out) (./tmp/MarkosDelaportas_CaveCommunications.out)
 \@outlinefile=\write5
 
@@ -1316,69 +1316,69 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 77.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 77.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 77.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 77.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 77.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 77.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 77.
-LaTeX Font Info:    Redeclaring math accent \check on input line 77.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 77.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 77.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 77.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 76.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 76.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 76.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 76.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 76.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 76.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 76.
+LaTeX Font Info:    Redeclaring math accent \check on input line 76.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 76.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 76.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 76.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 77.
+(Font)              `operators' in the math version `normal' on input line 76.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Georgia(0)/m/n on input line 77.
+(Font)                  OT1/cmr/m/n --> TU/Georgia(0)/m/n on input line 76.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 77.
+(Font)              `operators' in the math version `bold' on input line 76.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Georgia(0)/m/n on input line 77.
+(Font)                  OT1/cmr/bx/n --> TU/Georgia(0)/m/n on input line 76.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Georgia(0)/m/n --> TU/Georgia(0)/m/n on input line 77.
+(Font)                  TU/Georgia(0)/m/n --> TU/Georgia(0)/m/n on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Georgia(0)/m/it on input line 77.
+(Font)                  OT1/cmr/m/it --> TU/Georgia(0)/m/it on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Georgia(0)/b/n on input line 77.
+(Font)                  OT1/cmr/bx/n --> TU/Georgia(0)/b/n on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/SegoeUIVariable(0)/m/n on input line 77.
+(Font)                  OT1/cmss/m/n --> TU/SegoeUIVariable(0)/m/n on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Corbel(0)/m/n on input line 77.
+(Font)                  OT1/cmtt/m/n --> TU/Corbel(0)/m/n on input line 76.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Georgia(0)/m/n --> TU/Georgia(0)/b/n on input line 77.
+(Font)                  TU/Georgia(0)/m/n --> TU/Georgia(0)/b/n on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Georgia(0)/b/it on input line 77.
+(Font)                  OT1/cmr/bx/it --> TU/Georgia(0)/b/it on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/SegoeUIVariable(0)/b/n on input line 77.
+(Font)                  OT1/cmss/bx/n --> TU/SegoeUIVariable(0)/b/n on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Corbel(0)/b/n on input line 77.
-LaTeX Info: Redefining \microtypecontext on input line 77.
-Package microtype Info: Applying patch `item' on input line 77.
-Package microtype Info: Applying patch `toc' on input line 77.
-Package microtype Info: Applying patch `eqnum' on input line 77.
-Package microtype Info: Applying patch `footnote' on input line 77.
-Package microtype Info: Applying patch `verbatim' on input line 77.
+(Font)                  OT1/cmtt/m/n --> TU/Corbel(0)/b/n on input line 76.
+LaTeX Info: Redefining \microtypecontext on input line 76.
+Package microtype Info: Applying patch `item' on input line 76.
+Package microtype Info: Applying patch `toc' on input line 76.
+Package microtype Info: Applying patch `eqnum' on input line 76.
+Package microtype Info: Applying patch `footnote' on input line 76.
+Package microtype Info: Applying patch `verbatim' on input line 76.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 77.
+LaTeX Info: Redefining \showhyphens on input line 76.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1391,7 +1391,7 @@ Package biblatex Info: ... file 'latex.lbx' not found.
 
 
 Package biblatex Warning: Language 'latex' not supported.
-(biblatex)                Using dummy definitions on input line 77.
+(biblatex)                Using dummy definitions on input line 76.
 
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -1402,22 +1402,22 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MarkosDelaportas_CaveCommunications.bbl' found.
 (./tmp/MarkosDelaportas_CaveCommunications.bbl)
-Package biblatex Info: Reference section=0 on input line 77.
-Package biblatex Info: Reference segment=0 on input line 77.
-LaTeX Info: Redefining \rmfamily on input line 77.
-LaTeX Info: Redefining \sffamily on input line 77.
-LaTeX Info: Redefining \ttfamily on input line 77.
+Package biblatex Info: Reference section=0 on input line 76.
+Package biblatex Info: Reference segment=0 on input line 76.
+LaTeX Info: Redefining \rmfamily on input line 76.
+LaTeX Info: Redefining \sffamily on input line 76.
+LaTeX Info: Redefining \ttfamily on input line 76.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SegoeUIVariable' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1440,30 +1440,30 @@ luaotfload | aux : no font with id -1)
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 156.
+(multicol)                Footnotes on page 1 might be wrong on input line 155.
 
 [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
+Underfull \hbox (badness 10000) in paragraph at lines 156--162
 
  []
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 294.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'jourvol' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 294.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'number' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 294.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 294.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1478,15 +1478,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'weiss_autonomous_2009' on input line 294.
+(biblatex)                at entry 'weiss_autonomous_2009' on input line 304.
 
+[2]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 294.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 294.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1497,19 +1498,19 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'june' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 294.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 294.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 294.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'hedley_accurate_2013' on input line 294.
+(biblatex)                at entry 'hedley_accurate_2013' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1518,18 +1519,17 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
 
-[2]
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 294.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'jourvol' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 294.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 294.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1547,15 +1547,15 @@ Package biblatex Warning: Using fallback definition for \mkbibordinal.
 
 
 Package biblatex Warning: Bibliography string 'march' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 294.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 294.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 294.
+(biblatex)                at entry 'martinez-garrido_experimental_2016' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1566,11 +1566,11 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 294.
+(biblatex)                at entry 'walsh_communications_2018' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 294.
+(biblatex)                at entry 'walsh_communications_2018' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1581,19 +1581,19 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'march' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 294.
+(biblatex)                at entry 'walsh_communications_2018' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 294.
+(biblatex)                at entry 'walsh_communications_2018' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 294.
+(biblatex)                at entry 'walsh_communications_2018' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'walsh_communications_2018' on input line 294.
+(biblatex)                at entry 'walsh_communications_2018' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1604,15 +1604,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'jourvol' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 294.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'number' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 294.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 294.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1623,15 +1623,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'december' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 294.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 294.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'bayrakdar_rule_2019' on input line 294.
+(biblatex)                at entry 'bayrakdar_rule_2019' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1642,7 +1642,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 294.
+(biblatex)                at entry 'branch_fifth_2021' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1653,19 +1653,19 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'october' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 294.
+(biblatex)                at entry 'branch_fifth_2021' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 294.
+(biblatex)                at entry 'branch_fifth_2021' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 294.
+(biblatex)                at entry 'branch_fifth_2021' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'branch_fifth_2021' on input line 294.
+(biblatex)                at entry 'branch_fifth_2021' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1676,15 +1676,15 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'zhao_feasibility_2023' on input line 294.
+(biblatex)                at entry 'zhao_feasibility_2023' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'jourvol' untranslated
-(biblatex)                at entry 'zhao_feasibility_2023' on input line 294.
+(biblatex)                at entry 'zhao_feasibility_2023' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'page' untranslated
-(biblatex)                at entry 'zhao_feasibility_2023' on input line 294.
+(biblatex)                at entry 'zhao_feasibility_2023' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1702,15 +1702,15 @@ Package biblatex Warning: Using fallback definition for \mkbibordinal.
 
 
 Package biblatex Warning: Bibliography string 'august' untranslated
-(biblatex)                at entry 'zhao_feasibility_2023' on input line 294.
+(biblatex)                at entry 'zhao_feasibility_2023' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'zhao_feasibility_2023' on input line 294.
+(biblatex)                at entry 'zhao_feasibility_2023' on input line 304.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'zhao_feasibility_2023' on input line 294.
+(biblatex)                at entry 'zhao_feasibility_2023' on input line 304.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -1742,15 +1742,15 @@ Here is how much of LuaTeX's memory you used:
  156265,2373549 words of node,token memory allocated
  856 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 6 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 27 attribute, 83 glue_spec, 27 attribute_list, 5 write, 8 pdf_action nodes
-   avail lists: 1:14,2:1005,3:440,4:212,5:191,6:113,7:16030,8:70,9:545,10:17,11:302
+   avail lists: 1:14,2:911,3:425,4:207,5:191,6:113,7:17174,8:70,9:552,10:17,11:302
  70944 multiletter control sequences out of 65536+600000
  105 fonts using 20211919 bytes
- 102i,11n,101p,2374b,1657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,101p,2374b,1650s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/corbel.ttf><c:/Windows/Fonts/georgiai.ttf><c:/Windows/Fonts/georgiaz.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/Windows/Fonts/georgiab.ttf><c:/Windows/Fonts/georgia.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/Windows/Fonts/SegUIVar.ttf><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on MarkosDelaportas_CaveCommunications.pdf (3 pages, 197718 bytes).
+Output written on MarkosDelaportas_CaveCommunications.pdf (3 pages, 198516 bytes).
 
-PDF statistics: 199 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+PDF statistics: 200 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 131072)
  80 words of extra memory for PDF output out of 10000 (max. 100000000)
 

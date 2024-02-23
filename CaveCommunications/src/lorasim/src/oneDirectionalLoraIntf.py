@@ -775,11 +775,11 @@ if (graphics == 1):
     plt.show()  
 
 # store nodes and basestation locations
-with open('nodes.txt', 'w') as nfile:
+with open('data/nodes.txt', 'w') as nfile:
     for node in nodes:
         nfile.write('{x} {y} {id}\n'.format(**vars(node)))
 
-with open('basestation.txt', 'w') as bfile:
+with open('data/basestation.txt', 'w') as bfile:
     for basestation in bs:
         bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
 

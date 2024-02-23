@@ -1,10 +1,23 @@
-FROM python:3
+FROM python as builder
 
 WORKDIR /usr/src/lorasim
 
-COPY requirements.txt /usr/src/lorasim/requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+ENV VIRTUAL_ENV=/opt/venv
+RUN python -m venv $VIRTUAL_ENV
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
+COPY requirements.txt .
+RUN pip install -Ur requirements.txt
+
+FROM python
+WORKDIR /usr/src/lorasim
+
+COPY --from=builder /opt/venv /opt/venv
+
+# Enable venv
+ENV PATH="/opt/venv/bin:$PATH"
 
 COPY . .
-
-CMD [ "python", "loraDir.py", "12", "1000", "0", "15000", "0"]

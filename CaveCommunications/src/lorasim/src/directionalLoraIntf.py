@@ -489,6 +489,7 @@ class myPacket():
         global Lpld0
         global GL
         global nodes
+        global minsensi
 
         # new: base station ID
         self.bs = bs
@@ -789,11 +790,11 @@ if (graphics == 1):
     plt.show()  
 
 # store nodes and basestation locations
-with open('data/nodes.txt', 'w') as nfile:
+with open('data/directionalLoRaIntf/nodes.txt', 'w') as nfile:
     for node in nodes:
         nfile.write('{x} {y} {id}\n'.format(**vars(node)))
 
-with open('data/basestation.txt', 'w') as bfile:
+with open('data/directionalLoRaIntf/basestation.txt', 'w') as bfile:
     for basestation in bs:
         bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
 
@@ -843,7 +844,7 @@ if (graphics == 1):
 
 # save experiment data into a dat file that can be read by e.g. gnuplot
 # name of file would be:  exp0.dat for experiment 0
-fname = "exp" + str(experiment) + "d99" + "BS" + str(nrBS) + "Intf.dat"
+fname = "data/directionalLoRaIntf/exp" + str(experiment) + "d99" + "BS" + str(nrBS) + "Intf.dat"
 print(fname)
 if os.path.isfile(fname):
     res = "\n" + str(nrNodes) + " " + str(der[0]) 

@@ -609,11 +609,11 @@ if (graphics == 1):
     plt.show()
 
 # store nodes and basestation locations
-with open('data/nodes.txt', 'w') as nfile:
+with open('data/LoRaDirMulBS/nodes.txt', 'w') as nfile:
     for node in nodes:
         nfile.write('{x} {y} {id}\n'.format(**vars(node)))
 
-with open('data/basestation.txt', 'w') as bfile:
+with open('data/LoRaDirMulBS/basestation.txt', 'w') as bfile:
     for basestation in bs:
         bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
 
@@ -647,7 +647,7 @@ if (graphics == 1):
 
 # save experiment data into a dat file that can be read by e.g. gnuplot
 # name of file would be:  exp0.dat for experiment 0
-fname = "data/exp" + str(experiment) + "BS" + str(nrBS) + ".dat"
+fname = "data/LoRaDirMulBS/exp" + str(experiment) + "BS" + str(nrBS) + ".dat"
 print(fname)
 if os.path.isfile(fname):
     res = "\n" + str(nrNodes) + " " + str(der)

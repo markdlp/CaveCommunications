@@ -392,10 +392,10 @@ class myNode():
                     else:
                         rounds = rounds + 1
                         if rounds == 100:
-                            print "could not place new node, giving up"
+                            print ("could not place new node, giving up")
                             exit(-2)  
             else:
-                print "first node"
+                print ("first node")
                 self.x = posx
                 self.y = posy
                 found = 1
@@ -432,18 +432,18 @@ class myNode():
         global bs
 
         if (self.bs.id == 0):
-            print "+++++++++uR node", self.id, " and bs ", self.bs.id 
+            print ("+++++++++uR node", self.id, " and bs ", self.bs.id )
         else:
-            print "+++++NO+NO+++uR node", self.id, " and bs ", self.bs.id 
+            print ("+++++NO+NO+++uR node", self.id, " and bs ", self.bs.id )
             return
-        print "node x,y", self.x, self.y
-        print "main-bs x,y", bs[self.bs.id].x, bs[self.bs.id].y
+        print ("node x,y", self.x, self.y)
+        print ("main-bs x,y", bs[self.bs.id].x, bs[self.bs.id].y)
         for i in range(0,len(self.packet)):
-            print "rssi before", self.packet[i].rssi
-            print "packet bs", self.packet[i].bs
-            print "packet bs x, y:", bs[self.packet[i].bs].x, bs[self.packet[i].bs].y            
+            print( "rssi before", self.packet[i].rssi)
+            print( "packet bs", self.packet[i].bs)
+            print( "packet bs x, y:", bs[self.packet[i].bs].x, bs[self.packet[i].bs].y)            
             if (self.bs.id == self.packet[i].bs):
-                print "packet to main bs, increase rssi "
+                print( "packet to main bs, increase rssi ")
                 self.packet[i].rssi = self.packet[i].rssi + dir_30
             else:
                 b1 = np.array([bs[self.bs.id].x, bs[self.bs.id].y])
@@ -452,27 +452,27 @@ class myNode():
 
                 ba = b1 - p
                 bc = b2 - p
-                print ba
-                print bc
+                print (ba)
+                print (bc)
 
                 cosine_angle = np.dot(ba, bc) / (np.linalg.norm(ba) * np.linalg.norm(bc))
                 angle = np.degrees(np.arccos(cosine_angle))
 
-                print "angle: ", angle
+                print( "angle: ", angle)
 
                 if (angle <= 30):
-                    print "rssi increase to other BS: 4"
+                    print( "rssi increase to other BS: 4")
                     self.packet[i].rssi = self.packet[i].rssi + dir_30
                 elif angle <= 90:
-                    print "rssi increase to other BS: 2"
+                    print( "rssi increase to other BS: 2")
                     self.packet[i].rssi = self.packet[i].rssi + dir_90
                 elif angle <= 150:
-                    print "rssi increase to other BS: -4"
+                    print( "rssi increase to other BS: -4")
                     self.packet[i].rssi = self.packet[i].rssi + dir_150
                 else:
-                    print "rssi increase to other BS: -3"
+                    print( "rssi increase to other BS: -3")
                     self.packet[i].rssi = self.packet[i].rssi + dir_180
-            print "packet rssi after", self.packet[i].rssi
+            print( "packet rssi after", self.packet[i].rssi)
 
 
 #
@@ -519,7 +519,7 @@ class myPacket():
         
         # log-shadow
         Lpl = Lpld0 + 10*gamma*math.log10(distance/d0)
-        print Lpl
+        print( Lpl)
         Prx = Ptx - GL - Lpl
         
         if (experiment == 3):
@@ -549,7 +549,7 @@ class myPacket():
             self.sf = minsf
             self.bw = minbw
             if (minairtime == 9999):
-                print "does not reach base station"            
+                print( "does not reach base station" )           
                 exit(-1)
 
         # transmission range, needs update XXX    
@@ -577,7 +577,7 @@ class myPacket():
         if experiment != 3:
             global minsensi
             self.lost = self.rssi < minsensi
-            print "node {} bs {} lost {}".format(self.nodeid, self.bs, self.lost)
+            print(f"node {self.nodeid} bs {self.bs} lost { self.lost}")
 
 
 #
@@ -602,7 +602,7 @@ def transmit(env,node):
         global nrBS
         for bs in range(0, nrBS):
            if (node in packetsAtBS[bs]):
-                print "ERROR: packet already in"
+                print( "ERROR: packet already in")
            else:
                 # adding packet if no collision
                 if (checkcollision(node.packet[bs])==1):
@@ -663,19 +663,19 @@ if len(sys.argv) == 10:
     directionality = int(sys.argv[7])
     nrNetworks = int(sys.argv[8])
     baseDist = float(sys.argv[9])
-    print "Nodes per base station:", nrNodes 
-    print "AvgSendTime (exp. distributed):",avgSendTime
-    print "Experiment: ", experiment
-    print "Simtime: ", simtime
-    print "nrBS: ", nrBS
-    print "Full Collision: ", full_collision
-    print "with directionality: ", directionality
-    print "nrNetworks: ", nrNetworks
-    print "baseDist: ", baseDist   # x-distance between the two base stations
+    print( "Nodes per base station:", nrNodes )
+    print( "AvgSendTime (exp. distributed):",avgSendTime)
+    print( "Experiment: ", experiment)
+    print( "Simtime: ", simtime)
+    print( "nrBS: ", nrBS)
+    print( "Full Collision: ", full_collision)
+    print( "with directionality: ", directionality)
+    print( "nrNetworks: ", nrNetworks)
+    print( "baseDist: ", baseDist)   # x-distance between the two base stations
 
 else:
-    print "usage: ./oneDirectionalLoraIntf.py <nodes> <avgsend> <experiment> <simtime> <collision> <directionality> <networks> <basedist>"
-    print "experiment 0 and 1 use 1 frequency only"
+    print( "usage: ./oneDirectionalLoraIntf.py <nodes> <avgsend> <experiment> <simtime> <collision> <directionality> <networks> <basedist>")
+    print( "experiment 0 and 1 use 1 frequency only")
     exit(-1)
 
 
@@ -718,9 +718,9 @@ elif experiment == 3:
     minsensi = np.amin(sensi) ## Experiment 3 can use any setting, so take minimum
 
 Lpl = Ptx - minsensi
-print "amin", minsensi, "Lpl", Lpl
+print( "amin", minsensi, "Lpl", Lpl)
 maxDist = d0*(math.e**((Lpl-Lpld0)/(10.0*gamma)))
-print "maxDist:", maxDist
+print( "maxDist:", maxDist)
 
 # size of area
 xmax = maxDist*(nrBS+2) + 20
@@ -730,9 +730,9 @@ ymax = maxDist*(nrBS+1) + 20
 maxBSReceives = 8
 
 maxX = maxDist + baseDist*(nrBS) 
-print "maxX ", maxX
+print( "maxX ", maxX)
 maxY = 2 * maxDist * math.sin(30*(math.pi/180)) # == maxdist
-print "maxY", maxY
+print( "maxY", maxY)
 
 
 # prepare graphics and add sink
@@ -775,27 +775,27 @@ if (graphics == 1):
     plt.show()  
 
 # store nodes and basestation locations
-with open('data/nodes.txt', 'w') as nfile:
+with open('data/oneDirectionalLoRaIntf/nodes.txt', 'w') as nfile:
     for node in nodes:
         nfile.write('{x} {y} {id}\n'.format(**vars(node)))
 
-with open('data/basestation.txt', 'w') as bfile:
+with open('data/oneDirectionalLoRaIntf/basestation.txt', 'w') as bfile:
     for basestation in bs:
         bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
 
 # start simulation
 env.run(until=simtime)
 
-print "nr received packets (independent of right base station)", len(recPackets)
-print "nr collided packets", len(collidedPackets)
-print "nr lost packets (not correct)", len(lostPackets)
+print( "nr received packets (independent of right base station)", len(recPackets))
+print( "nr collided packets", len(collidedPackets))
+print( "nr lost packets (not correct)", len(lostPackets))
 
 sum = 0
 for i in range(0,nrBS):
-    print "packets at BS",i, ":", len(packetsRecBS[i])
+    print( "packets at BS",i, ":", len(packetsRecBS[i]))
     sum = sum + len(packetsRecBS[i])
-print "sent packets: ", packetSeq
-print "overall received at right BS: ", sum
+print( "sent packets: ", packetSeq)
+print( "overall received at right BS: ", sum)
 
 sumSent = 0
 sent = []
@@ -803,12 +803,12 @@ for i in range(0, nrBS):
     sent.append(0)
 for i in range(0,nrNodes*nrBS):
     sumSent = sumSent + nodes[i].sent
-    print "id for node ", nodes[i].id, "BS:", nodes[i].bs.id, " sent: ", nodes[i].sent
+    print( "id for node ", nodes[i].id, "BS:", nodes[i].bs.id, " sent: ", nodes[i].sent)
     sent[nodes[i].bs.id] = sent[nodes[i].bs.id] + nodes[i].sent
 for i in range(0, nrBS):
-    print "send to BS[",i,"]:", sent[i]
+    print( "send to BS[",i,"]:", sent[i])
 
-print "sumSent: ", sumSent
+print( "sumSent: ", sumSent)
 
 der = []
 # data extraction rate
@@ -816,20 +816,20 @@ derALL = len(recPackets)/float(sumSent)
 sumder = 0
 for i in range(0, nrBS):
     der.append(len(packetsRecBS[i])/float(sent[i]))
-    print "DER BS[",i,"]:", der[i]
+    print( "DER BS[",i,"]:", der[i])
     sumder = sumder + der[i]
 avgDER = (sumder)/nrBS
-print "avg DER: ", avgDER
-print "DER with 1 network:", derALL
+print( "avg DER: ", avgDER)
+print( "DER with 1 network:", derALL)
 
 # this can be done to keep graphics visible
 if (graphics == 1):
-    raw_input('Press Enter to continue ...')
+    input('Press Enter to continue ...')
 
 # save experiment data into a dat file that can be read by e.g. gnuplot
 # name of file would be:  exp0.dat for experiment 0
-fname = "exp" + str(experiment) + "intfDIR5BS.dat"
-print fname
+fname = "data/oneDirectionalLoRaIntf/exp" + str(experiment) + "intfDIR5BS.dat"
+print( fname)
 if os.path.isfile(fname):
     res = "\n" + str(nrNodes) + " " + str(der[0]) + " " + str(avgDER) 
 else:

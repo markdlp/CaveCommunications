@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1710763078 "Lab1_Αναγνωριστηκό.tex" "Lab1_Αναγνωριστηκό.pdf" "Lab1_Αναγνωριστηκό" 1710763087 0
+["lualatex"] 1711373105 "Lab1_Αναγνωριστηκό.tex" "Lab1_Αναγνωριστηκό.pdf" "Lab1_Αναγνωριστηκό" 1711373115 0
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/hb/0993df6e8d72bdf9f86882b3c57a6b0bcf4a3f7da20b58de58f0f992d7f5cb16.luc" 1703087973 69868 2a38116df811e322422dfdf079824b15 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/hb/30de64cd01fce8515e6a292738d98c753a66c9031b352cf391f969031010f406.luc" 1703088093 171637 71885d59fc4b09b1f4a8d3db0f4ad6d4 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/hb/3d17b918f59e3778068352985b351c0bda2d603a1e004d867ad033428b9dd08c.luc" 1703087973 67090 879d4b562245d07245b08e1bc656b9c6 ""
@@ -14,9 +14,9 @@
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/hb/fad3d713831089b2d178639e56278ee4b8888e51327c77e578f64fffc61e3587.luc" 1703087972 53242 370a2632a76cae5043acc7df25bd7b36 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1703087972 128291 106e1096a9b204226b3febf09d5dbd20 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1703087970 127662 0a289f6e4166bf2ede469e929d8f1940 ""
-  "C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1710724206 7651 4c5188e3be656dfc30c7e105eb9458b2 ""
+  "C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1710775002 15266 921f50b44980c277179909697faf8b17 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1710536413 295650 37b2271d11072637a36ef8189f81b5bc ""
-  "Lab1_Αναγνωριστηκό.tex" 1710763076 32147 ce3bfdf665c72717b735db0dd245b02a ""
+  "Lab1_Αναγνωριστηκό.tex" 1711373100 32896 e1643e03aae28585204871802045824c ""
   "c:/Windows/Fonts/georgia.ttf" 1651900758 219712 96922b4abbc90606b4e0e85db42a7e30 ""
   "c:/Windows/Fonts/georgiab.ttf" 1651900758 207476 5c1ac2fcf8f1339f79c323a66f763d0d ""
   "c:/Windows/Fonts/georgiaz.ttf" 1651900758 211780 f070f16e8b3524ad233c160c6a15328c ""
@@ -277,8 +277,8 @@
   "img/gnuradio.png" 1710547488 17756 7caa7cf747c12c23d42526602b05dc58 ""
   "img/iq_diagram.png" 1710593239 124525 43e57a1068b9d12d6fd822f83cd6c78d ""
   "img/uowm.png" 1710544661 6792 06ea2a92fd9365ac7c95270b328fb485 ""
-  "tmp/Lab1_Αναγνωριστηκό.aux" 1710763086 5917 fff3e50613ac3de2acb779bb4a0149a4 "lualatex"
-  "tmp/Lab1_Αναγνωριστηκό.out" 1710763086 1515 1da8c4b72bae9e80941a82ff7239f585 "lualatex"
+  "tmp/Lab1_Αναγνωριστηκό.aux" 1711373114 5917 fff3e50613ac3de2acb779bb4a0149a4 "lualatex"
+  "tmp/Lab1_Αναγνωριστηκό.out" 1711373114 1515 1da8c4b72bae9e80941a82ff7239f585 "lualatex"
   (generated)
   "Lab1_Αναγνωριστηκό.pdf"
   "tmp/Lab1_Αναγνωριστηκό.aux"

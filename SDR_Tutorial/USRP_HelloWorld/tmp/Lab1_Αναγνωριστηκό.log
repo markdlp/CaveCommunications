@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.18)  18 MAR 2024 13:57
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.12.18)  25 MAR 2024 15:25
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Lab1_Αναγνωριστηκό.tex
@@ -881,8 +881,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (11.12431pt too wide) in paragraph at lines 76--77
-\TU/Georgia(0)/b/n/12 είναι να εξασφαλιστεί ότι οι μαθητές έχουν μια λειτουργική εγκατάσταση του GNU Ra-dio στους υπολογιστές
+Overfull \hbox (12.24773pt too wide) in paragraph at lines 76--77
+\TU/Georgia(0)/b/n/12 των αλγορίθμων που είναι απαραίτητοι για την ψηφιακή επικοινωνία. Σε αυτό το εργαστήριο, θα σχεδιάζετε
  []
 
 
@@ -1005,20 +1005,20 @@ File: img/ece.png Graphic file (type png)
 Package luatex.def Info: img/ece.png  used on input line 243.
 (luatex.def)             Requested size: 28.45274pt x 28.45079pt.
 [3<./img/gnuradio.png><./img/iq_diagram.png>]
-<img/ex1_flow.png, id=102, 882.29625pt x 344.03531pt>
+<img/ex1_flow.png, id=106, 882.29625pt x 344.03531pt>
 File: img/ex1_flow.png Graphic file (type png)
 <use img/ex1_flow.png>
-Package luatex.def Info: img/ex1_flow.png  used on input line 313.
+Package luatex.def Info: img/ex1_flow.png  used on input line 320.
 (luatex.def)             Requested size: 500.7704pt x 195.26749pt.
-<img/ex1_freq.png, id=104, 399.74344pt x 203.25937pt>
+<img/ex1_freq.png, id=108, 399.74344pt x 203.25937pt>
 File: img/ex1_freq.png Graphic file (type png)
 <use img/ex1_freq.png>
-Package luatex.def Info: img/ex1_freq.png  used on input line 323.
+Package luatex.def Info: img/ex1_freq.png  used on input line 330.
 (luatex.def)             Requested size: 281.68036pt x 143.23273pt.
-<img/ex1_time.png, id=105, 401.24907pt x 213.04594pt>
+<img/ex1_time.png, id=109, 401.24907pt x 213.04594pt>
 File: img/ex1_time.png Graphic file (type png)
 <use img/ex1_time.png>
-Package luatex.def Info: img/ex1_time.png  used on input line 328.
+Package luatex.def Info: img/ex1_time.png  used on input line 335.
 (luatex.def)             Requested size: 281.68036pt x 149.56999pt.
 
 
@@ -1026,74 +1026,74 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: img/uowm.png Graphic file (type png)
 <use img/uowm.png>
-Package luatex.def Info: img/uowm.png  used on input line 344.
+Package luatex.def Info: img/uowm.png  used on input line 349.
 (luatex.def)             Requested size: 148.16188pt x 28.45274pt.
 File: img/ece.png Graphic file (type png)
 <use img/ece.png>
-Package luatex.def Info: img/ece.png  used on input line 344.
+Package luatex.def Info: img/ece.png  used on input line 349.
 (luatex.def)             Requested size: 28.45274pt x 28.45079pt.
 [4]
-<img/ex2_flow.png, id=123, 707.64375pt x 396.7322pt>
+<img/ex2_flow.png, id=131, 707.64375pt x 396.7322pt>
 File: img/ex2_flow.png Graphic file (type png)
 <use img/ex2_flow.png>
-Package luatex.def Info: img/ex2_flow.png  used on input line 365.
+Package luatex.def Info: img/ex2_flow.png  used on input line 372.
 (luatex.def)             Requested size: 500.7704pt x 280.75562pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/ex2_freq.png, id=125, 395.97937pt x 175.40532pt>
+<img/ex2_freq.png, id=133, 395.97937pt x 175.40532pt>
 File: img/ex2_freq.png Graphic file (type png)
 <use img/ex2_freq.png>
-Package luatex.def Info: img/ex2_freq.png  used on input line 375.
+Package luatex.def Info: img/ex2_freq.png  used on input line 382.
 (luatex.def)             Requested size: 281.68036pt x 124.77684pt.
-<img/ex2_time.png, id=126, 409.53pt x 236.38312pt>
+<img/ex2_time.png, id=134, 409.53pt x 236.38312pt>
 File: img/ex2_time.png Graphic file (type png)
 <use img/ex2_time.png>
-Package luatex.def Info: img/ex2_time.png  used on input line 380.
+Package luatex.def Info: img/ex2_time.png  used on input line 387.
 (luatex.def)             Requested size: 281.68036pt x 162.59595pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: img/uowm.png Graphic file (type png)
 <use img/uowm.png>
-Package luatex.def Info: img/uowm.png  used on input line 394.
+Package luatex.def Info: img/uowm.png  used on input line 401.
 (luatex.def)             Requested size: 148.16188pt x 28.45274pt.
 File: img/ece.png Graphic file (type png)
 <use img/ece.png>
-Package luatex.def Info: img/ece.png  used on input line 394.
+Package luatex.def Info: img/ece.png  used on input line 401.
 (luatex.def)             Requested size: 28.45274pt x 28.45079pt.
 [5<./img/ex1_flow.png><./img/ex1_freq.png><./img/ex1_time.png>]
-Overfull \hbox (7.9794pt too wide) in paragraph at lines 405--408
+Overfull \hbox (7.9794pt too wide) in paragraph at lines 412--415
 []\TU/Georgia(0)/m/n/12 Προσθέστε ένα \TU/Georgia(0)/b/it/12 UHD: USRP Sink \TU/Georgia(0)/m/n/12 και ορίστε τον \TU/Georgia(0)/b/n/12 τύπο εισόδου \TU/Georgia(0)/m/n/12 σε \TU/Georgia(0)/b/n/12 com-plex float32\TU/Georgia(0)/m/n/12 , την \TU/Georgia(0)/b/n/12 Κεντρική Συχνότητα
  []
 
 
-Overfull \hbox (16.7919pt too wide) in paragraph at lines 408--411
+Overfull \hbox (16.7919pt too wide) in paragraph at lines 415--418
 []\TU/Georgia(0)/m/n/12 Προσθέστε ένα \TU/Georgia(0)/b/it/12 UHD: USRP Source \TU/Georgia(0)/m/n/12 και ορίστε τον \TU/Georgia(0)/b/n/12 τύπο εξόδου \TU/Georgia(0)/m/n/12 σε \TU/Georgia(0)/b/n/12 com-plex float32\TU/Georgia(0)/m/n/12 , την \TU/Georgia(0)/b/n/12 Κεντρική Συχνότητα
  []
 
 File: img/uowm.png Graphic file (type png)
 <use img/uowm.png>
-Package luatex.def Info: img/uowm.png  used on input line 414.
+Package luatex.def Info: img/uowm.png  used on input line 421.
 (luatex.def)             Requested size: 148.16188pt x 28.45274pt.
 File: img/ece.png Graphic file (type png)
 <use img/ece.png>
-Package luatex.def Info: img/ece.png  used on input line 414.
+Package luatex.def Info: img/ece.png  used on input line 421.
 (luatex.def)             Requested size: 28.45274pt x 28.45079pt.
 [6<./img/ex2_flow.png><./img/ex2_freq.png><./img/ex2_time.png>]
-<img/ex3_flow.png, id=145, 587.94656pt x 431.36156pt>
+<img/ex3_flow.png, id=153, 587.94656pt x 431.36156pt>
 File: img/ex3_flow.png Graphic file (type png)
 <use img/ex3_flow.png>
-Package luatex.def Info: img/ex3_flow.png  used on input line 420.
+Package luatex.def Info: img/ex3_flow.png  used on input line 427.
 (luatex.def)             Requested size: 500.7704pt x 367.40282pt.
 File: img/uowm.png Graphic file (type png)
 <use img/uowm.png>
-Package luatex.def Info: img/uowm.png  used on input line 425.
+Package luatex.def Info: img/uowm.png  used on input line 432.
 (luatex.def)             Requested size: 148.16188pt x 28.45274pt.
 File: img/ece.png Graphic file (type png)
 <use img/ece.png>
-Package luatex.def Info: img/ece.png  used on input line 425.
+Package luatex.def Info: img/ece.png  used on input line 432.
 (luatex.def)             Requested size: 28.45274pt x 28.45079pt.
  [7<./img/ex3_flow.png>] (./tmp/Lab1_Αναγνωριστηκό.aux)
  ***********
@@ -1105,19 +1105,19 @@ Package rerunfilecheck Info: File `Lab1_Αναγνωριστηκό.out' has not 
 )
 
 Here is how much of LuaTeX's memory you used:
- 29311 strings out of 476506
+ 29315 strings out of 476506
  100000,1977958 words of node,token memory allocated
- 636 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 9 glue, 4 kern, 1 glyph, 20 attribute, 59 glue_spec, 20 attribute_list, 2 write nodes
-   avail lists: 1:1,2:1154,3:372,4:98,5:380,6:82,7:7902,8:54,9:823,10:7,11:77
+ 680 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 13 glue, 4 kern, 1 glyph, 24 attribute, 59 glue_spec, 24 attribute_list, 2 write nodes
+   avail lists: 1:1,2:1257,3:412,4:102,5:380,6:88,7:7870,8:54,9:935,10:7,11:77
  50562 multiletter control sequences out of 65536+600000
  115 fonts using 27071175 bytes
  84i,15n,99p,432b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/georgiaz.ttf><c:/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Bold.ttf><c:/Windows/Fonts/georgiab.ttf><c:/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-BoldItalic.ttf><c:/Windows/Fonts/georgia.ttf><c:/texlive/2023/texmf-dist/fonts/truetype/typoland/lato/Lato-Regular.ttf><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Lab1_Αναγνωριστηκό.pdf (8 pages, 798213 bytes).
+Output written on Lab1_Αναγνωριστηκό.pdf (8 pages, 799028 bytes).
 
-PDF statistics: 230 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 131072)
+PDF statistics: 238 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 131072)
  80 words of extra memory for PDF output out of 10000 (max. 100000000)
 

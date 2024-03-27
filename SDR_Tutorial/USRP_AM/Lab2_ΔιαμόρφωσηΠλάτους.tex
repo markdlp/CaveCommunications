@@ -242,8 +242,98 @@
                 \caption{Τα πεδία χρόνου και συχνότητας για κάθε σημείο του γραφήματος (\ref{img:ex1Flow})}
                 \label{img:timefreq}
             \end{figure}
-            
+        
+        \subsection{\textsf{Μετάδοση ενός AM σήματος μέσω USRP}}
+            Αυτή η άσκηση είναι να μεταδώσετε και να λάβετε ένα σήμα διαμορφωμένο κατά πλάτος μέσω του USRP.
+            \subsubsection*{\textsf{\underline{Πομπός AM}}}
+            \begin{itemize}
+                \item Ανοίξτε ένα καινούριο διάγραμμα ροής στο GNU Radio
+                \item Ορίστε τις \textbf{Επιλογές Δημιουργίας} σε \textbf{QT GUI}.
+                \item Ορίστε το \textbf{ρυθμό δειγματοληψίας} της \textbf{\textit{μεταβλητής}} σε \textbf{500k}.
+                \item Προσθέστε ένα άλλο μπλοκ \textbf{\textit{μεταβλητής}},
+                    ονομάστε το \textbf{freq} και ορίστε το σε \textbf{5k}.
+                \item Προσθέστε ένα άλλο μπλοκ \textbf{\textit{μεταβλητής}}, 
+                    ονομάστε το \textbf{TX\_freq} και ορίστε το σε \textbf{820.1M}.
+                \item Προσθέστε μια \textbf{\textit{Πηγή Σήματος}} και ορίστε τον \textbf{Τύπο Εξόδου}
+                σε \textbf{float}, την \textbf{Κυματομορφή} σε \textbf{συνημίτονο},\\
+                την \textbf{Συχνότητα} σε \textbf{freq}, το \textbf{Πλάτος} σε \textbf{1} και τέλος 
+                \textbf{\textit{Μετατόπιση}} σε \textbf{0}.
+                \item Προσθέστε μια \textbf{\textit{Σταθερή Πηγή}} και ορίστε τον \textbf{Τύπο Εξόδου}
+                    σε \textbf{float} αριθμούς, ορίστε \textbf{Σταθερά} σε \textbf{1}.
+                \item Προσθέστε ένα μπλοκ \textbf{\textit{Πρόσθεσης}}. Αλλάξτε τον \textbf{Τύπο ΕισόδουΕξόδου}
+                 σε \textbf{float}.
+                \item Προσθέστε μια \textbf{\textit{Πολλαπλασιαστή Σταθερά}}, αλλάξτε τον \textbf{Τύπο ΕισόδουΕξόδου}
+                 σε \textbf{float}. Ορίστε τη \textbf{Σταθερά} σε \textbf{0.5}. Συνδέσετε την 
+                 \textbf{\textit{Σταθερή Πηγή}} και την \textbf{\textit{Πολλαπλασιαστή Σταθερά}}
+                 στο μπλοκ \textbf{\textit{Πρόσθεσης}}.
+                \item Προσθέστε ένα μπλοκ \textbf{\textsf{Float to Complex}}.
+                \item Προσθέστε ένα \textbf{\textit{QT GUI Sink}} και ορίστε τον \textbf{Τύπο} σε
+                 \textbf{float} και το \textbf{FFT Size} σε \textbf{2,048 kHz}.
+                \item Προσθέστε ένα \textbf{\textit{UHD: USRP sink}} και ορίστε τον \textbf{Τύπο Εισόδου}
+                 σε \textbf{Μιγαδικό float32}, την \textbf{Κεντρική Συχνότητα} ώς \textbf{Tx\_freq} και
+                 την \textbf{Τιμή Κέρδους} σε \textbf{20}.                
+            \end{itemize}
+            Συνδέσετε τα παραπάνω μπλοκ ώστε να μεταδώσετε ένα AM σήμα μέσω του USRP.
 
-    
-    
+            \subsubsection*{\textsf{\underline{Δέκτης AM}}}
+            \begin{itemize}
+                \item Χρησιμοποιήστε το διάγραμμα ροής πομπού AM.
+                \item Προσθέστε ένα άλλο μπλοκ \textbf{\textit{μεταβλητής}}, 
+                    ονομάστε το \textbf{Rx\_freq} και ορίστε το σε \textbf{820M}.
+                \item Προσθέστε μια \textbf{\textit{UHD: USRP source}} και ορίστε τον \textbf{Τύπο Εξόδου}
+                 σε \textbf{Μιγαδικό float32}, την \textbf{Κεντρική Συχνότητα} σε \textbf{RX\_freq} και τη
+                 \textbf{Τιμή Κέρδους} σε \textbf{0}.
+                \item Προσθέστε ένα \textbf{\textit{Ζωνοπερατό Φίλτρο}}, ορίστε την 
+                 \textbf{Χαμηλή Συχνότητα Αποκοπής} σε \textbf{90kHz},
+                 την \textbf{Υψηλή Συχνότητα Αποκοπής} σε \textbf{110k} και το \textbf{Πλάτος μετάδοσης} σε \textbf{10k}.
+                \item Προσθέστε ένα μπλοκ \textbf{\textit{Μιγαδικό σε Πραγματικό}}.
+                \item Προσθέστε ένα μπλοκ \textbf{\textit{Απόλυτης Τιμής}}.
+                 Ορίστε τον \textbf{Τύπο ΕισόδουΕξόδου} σε \textbf{float}.
+                \item Προσθέστε ένα \textbf{\textit{Χαμηλοπερατό Φίλτρο}}, ορίστε το 
+                 \textbf{Είδος Πεπερασμένης Κρουστικής Απόκρισης} σε \textbf{float}, 
+                 την \textbf{Συχνότητα Αποκοπής} σε \textbf{6k} και το \textbf{Πλάτος μετάδοσης} σε \textbf{1k}.
+                \item Προσθέστε ένα \textbf{\textit{QT GUI Sink}} και ορίστε το \textbf{Type} σε
+                 \textbf{float}, και το \textbf{FFT Size} σε \textbf{2,048 kHz}.
+                \item Προσθέστε ένα \textbf{\textit{File Sink}} και ορίστε το \textbf{Αρχείο} ώς το μονοπάτι
+                 προορισμού που θέλετε να αποθηκεύσετε το αρχείο.
+            \end{itemize}
+                Στο τέλος πρέπει να έχετε ένα διάγραμμα ροής όπως φαίνεται στην (). Αλλάξτε την θέση του GUI sink
+                μεταξύ των θέσεων A, B, C, D και E, και καταγράψτε το σήμα για κάθε θέση. \textbf{Αλλάξτε τον Δείκτη
+                Διαμόρφωσης} από 0.5 σε 1 και εκτελέστε πάλι.
+
+                \begin{figure}[h]
+                    \centering
+                    \includegraphics[width=\textwidth]{ex2Flow.png}
+                    \caption{Διαμόρφωση Πλάτους στο GNURadio μέσω USRP}
+                    \label{img:ex2Flow}                    
+                \end{figure}
+
+    \section{\textbf{\textsf{Αναφορά Εργαστηρίου}}}
+        Συνθέστε μια αναφορά κατά την οποία απαντάτε στις επόμενες ερωτήσεις.
+        \begin{enumerate}
+            \item Εστω ότι το σήμα βασικής ζώνης m(t) δίνεται ώς: $m(t) = \cos(2k\pi t) + \cos(4k\pi t) + \cos(6k\pi t)$\\
+                Υποθέτοντας ότι:
+                \begin{itemize}
+                    \item \mu = 0.5
+                    \item $f_{IF} = 10kHz$
+                    \item \theta = 0
+                    \item n(t) = 0
+                \end{itemize}
+                Κατασκευάστε μια προσομοίωση διαμόρφωσης πλάτους, όπως το πρώτο μέρος της εργαστηριακής διαδικασίας.
+                Αλλάξτε τις τιμές των μπλοκ ώστε να ανακτήσετε το αρχικό σήμα στο τέλος του δέκτη.
+                Παρέχετε εικόνες του διαγράμματος ροής και τών εξόδων στα πεδία τις συχνότητας και του χρόνου στις
+                θέσεις A, B, C, D, E και F.
+            \item Εξηγήστε τι είναι η $f_{IF}$ και γιατί είναι η συγκεκριμένη στο λαμβανόμενο σήμα;
+                Ποιες είναι οι τιμές της $f_{IF}$ στα μέρη 1,2 της εργαστηριακής διαδικασίας;
+            \item Στην δεύτερη εργαστηριακή διαδικασία, λάβατε από το USRP και αποθηκεύσατε την λήψη
+                με δείκτη διαμόρφωσης 0.5 του:
+                \begin{equation}
+                    \label{eq:2ndAMsig}
+                    \hat{r}(t) = [1 + 0.5\cos(10k\pi t)]\cos(200k\pi t)
+                \end{equation}
+                Αποδείξτε μαθηματικά ότι μπορεί να αποδιαμορφωθεί το σήμα \textbf{\underline{χωρίς}}
+                την χρήση ενός ανιχνευτή περιβάλλουσας (δείτε τις τριγωνομετρικές ταυτότητες \footnotemark[1]).
+                Εφαρμόστε αυτή τη μέθοδο στο GNURadio χρησιμοποιώντας το καταγεγραμμένο αρχείο ώς είσοδο 
+                (βάζοντας \textbf{\textit{File Source}}, αντί για \textbf{\textit{UHD: USRP source}}).
+        \end{enumerate}
 \end{document}

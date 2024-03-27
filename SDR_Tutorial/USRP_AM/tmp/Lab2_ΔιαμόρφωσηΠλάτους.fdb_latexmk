@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1711502597 "Lab2_ΔιαμόρφωσηΠλάτους.tex" "Lab2_ΔιαμόρφωσηΠλάτους.pdf" "Lab2_ΔιαμόρφωσηΠλάτους" 1711502604 0
+["lualatex"] 1711554202 "Lab2_ΔιαμόρφωσηΠλάτους.tex" "Lab2_ΔιαμόρφωσηΠλάτους.pdf" "Lab2_ΔιαμόρφωσηΠλάτους" 1711554209 0
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/hb/0993df6e8d72bdf9f86882b3c57a6b0bcf4a3f7da20b58de58f0f992d7f5cb16.luc" 1703087973 69868 2a38116df811e322422dfdf079824b15 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/hb/30de64cd01fce8515e6a292738d98c753a66c9031b352cf391f969031010f406.luc" 1703088093 171637 71885d59fc4b09b1f4a8d3db0f4ad6d4 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/hb/3d17b918f59e3778068352985b351c0bda2d603a1e004d867ad033428b9dd08c.luc" 1703087973 67090 879d4b562245d07245b08e1bc656b9c6 ""
@@ -16,7 +16,7 @@
   "C:/texlive/2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1703087970 127662 0a289f6e4166bf2ede469e929d8f1940 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1711388547 15444 356f6bd67ac0812a8e0a8ae09097c3b5 ""
   "C:/texlive/2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1710536413 295650 37b2271d11072637a36ef8189f81b5bc ""
-  "Lab2_ΔιαμόρφωσηΠλάτους.tex" 1711502586 18232 88eea289db64449e51d8f43227cbbc0f ""
+  "Lab2_ΔιαμόρφωσηΠλάτους.tex" 1711554200 27561 f584d74c7ec602d7586b78e08db479ef ""
   "c:/Windows/Fonts/georgia.ttf" 1651900758 219712 96922b4abbc90606b4e0e85db42a7e30 ""
   "c:/Windows/Fonts/georgiab.ttf" 1651900758 207476 5c1ac2fcf8f1339f79c323a66f763d0d ""
   "c:/Windows/Fonts/georgiaz.ttf" 1651900758 211780 f070f16e8b3524ad233c160c6a15328c ""
@@ -299,9 +299,10 @@
   "img/ex1Ff.png" 1711497569 12452 406b0cbe8463c2554cac6961ae13671a ""
   "img/ex1Flow.png" 1711494890 114134 6b7c0f804fa007a8d82d20f90db1f998 ""
   "img/ex1Ft.png" 1711497711 11309 76fe089f1e4f3d6e467252d3f0ecc29a ""
+  "img/ex2Flow.png" 1711552703 195677 51397914c5696a504b2f9245f48b0805 ""
   "img/uowm.png" 1710544661 6792 06ea2a92fd9365ac7c95270b328fb485 ""
-  "tmp/Lab2_ΔιαμόρφωσηΠλάτους.aux" 1711502603 2989 28da8daf10769a464f0d37421e3838a3 "lualatex"
-  "tmp/Lab2_ΔιαμόρφωσηΠλάτους.out" 1711502603 503 72809b03ed5f0815cd4f6230bb3363b3 "lualatex"
+  "tmp/Lab2_ΔιαμόρφωσηΠλάτους.aux" 1711554208 3829 8992464b9bc24e61e0cd67fb412a3727 "lualatex"
+  "tmp/Lab2_ΔιαμόρφωσηΠλάτους.out" 1711554208 1015 8dd501f106695b59d4d9426820a36d4e "lualatex"
   (generated)
   "Lab2_ΔιαμόρφωσηΠλάτους.pdf"
   "tmp/Lab2_ΔιαμόρφωσηΠλάτους.aux"

@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
  LoRaSim 0.2.1: simulate collisions in LoRa - directional nodes
@@ -16,9 +16,7 @@
 
  $Date: 2017-05-12 19:16:16 +0100 (Fri, 12 May 2017) $
  $Revision: 334 $
-"""
 
-"""
  SYNOPSIS:
    ./directionalLoraIntf.py <nodes> <avgsend> <experiment> <simtime> 
                             <collision> <directionality> <networks> <basedist>
@@ -141,9 +139,9 @@ def checkcollision(packet):
 #        |f1-f2| <= 60 kHz if f1 or f2 has bw 250 
 #        |f1-f2| <= 30 kHz if f1 or f2 has bw 125 
 def frequencyCollision(p1,p2):
-    if (abs(p1.freq-p2.freq)<=120 and (p1.bw==500 or p2.freq==500)):
+    if abs(p1.freq - p2.freq)<=120 and (p1.bw == 500 or p2.freq == 500):
         return True
-    elif (abs(p1.freq-p2.freq)<=60 and (p1.bw==250 or p2.freq==250)):
+    elif abs(p1.freq - p2.freq)<=60 and (p1.bw == 250 or p2.freq == 250):
         return True
     else:
         if (abs(p1.freq-p2.freq)<=30):

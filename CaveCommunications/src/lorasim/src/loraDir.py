@@ -277,7 +277,7 @@ class myNode():
 #
 class myPacket():
     def __init__(self, nodeid, plen, distance):
-        global experiment
+        global experiment, minsensi
         global Ptx
         global gamma
         global d0

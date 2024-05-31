@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber tmp/MarkosDelaportas_CaveCommunications"] 1716944082.66032 "tmp/MarkosDelaportas_CaveCommunications.bcf" "tmp/MarkosDelaportas_CaveCommunications.bbl" "tmp/MarkosDelaportas_CaveCommunications" 1716944299.01096 0
+["biber tmp/MarkosDelaportas_CaveCommunications"] 1717097568.20371 "tmp/MarkosDelaportas_CaveCommunications.bcf" "tmp/MarkosDelaportas_CaveCommunications.bbl" "tmp/MarkosDelaportas_CaveCommunications" 1717098952.93023 0
   "ref.bib" 1699920825.40409 39775 608896084ad09e5678509664815d9c09 ""
-  "tmp/MarkosDelaportas_CaveCommunications.bcf" 1716944297.43739 110817 7406aadad046fb97e9cd28ca6262a868 "lualatex"
+  "tmp/MarkosDelaportas_CaveCommunications.bcf" 1717098951.35016 110289 30a2985baea47dd11ef6c5aaa10436ee "lualatex"
   (generated)
   "tmp/MarkosDelaportas_CaveCommunications.bbl"
   "tmp/MarkosDelaportas_CaveCommunications.blg"
   (rewritten before read)
-["lualatex"] 1716944290.8118 "MarkosDelaportas_CaveCommunications.tex" "MarkosDelaportas_CaveCommunications.pdf" "MarkosDelaportas_CaveCommunications" 1716944299.01147 0
+["lualatex"] 1717098944.26351 "MarkosDelaportas_CaveCommunications.tex" "MarkosDelaportas_CaveCommunications.pdf" "MarkosDelaportas_CaveCommunications" 1717098952.93072 0
   "/home/mark/.local/share/fonts/CORBEL.TTF" 1644030048 277168 a666a3dc2358b75baa206b2dd4c5a615 ""
   "/home/mark/.local/share/fonts/SegoeUIVF.ttf" 1644030054 1844524 d33f4ed55868f7d505a1390fbb283be6 ""
   "/home/mark/.local/share/fonts/georgia.ttf" 1644030040 219712 ca8446d58eb8315c7a458caf81c6ed86 ""
@@ -27,7 +27,7 @@
   "/home/mark/.texlive2023/texmf-var/luatex-cache/generic/fonts/hb/fdc60b1444392a26da237c6d388855a628e22b33ee15fbadf5ac33340bc8aba3.luc" 1715896676.2979 51002 254b7e234ca22768c69704f7f4c397d1 ""
   "/home/mark/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1715896674.65795 128281 c6f80f39b6b4f903e4339f6819ec2ecc ""
   "/home/mark/.texlive2023/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1715896673.18599 127652 a5bcc9609cb60f4b11aae93e79c7a0c6 ""
-  "/home/mark/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1715896678.17185 4397 8969bc01debcd7ba6498a2a104ff4a1b ""
+  "/home/mark/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1717097565.0246 4488 4a706efceda66707261de43b4b7667c5 ""
   "/home/mark/.texlive2023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1715896673.04399 410987 82ede1e22ef903cb62adc99f29935e88 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -56,13 +56,10 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm" 1136768653 1120 2b3f9b25605010c69bc328bea6ac000f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
   "/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty" 1576016050 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -378,12 +375,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1714926574.66603 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/tex/generic/config/language.dat.lua" 1714926577.32107 17334 e7ffbe78e658d2cf043f9c577610cdce ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1714926669 12233301 fa215c6174e9338dc3ab27bab5511aee ""
-  "MarkosDelaportas_CaveCommunications.tex" 1716944290.46755 55107 a5a37c562137e9fc9ae2e868fd472b4b ""
-  "tmp/MarkosDelaportas_CaveCommunications.aux" 1716944297.39439 7569 36d3a68221b67e5a7e73656fa039280a "lualatex"
-  "tmp/MarkosDelaportas_CaveCommunications.bbl" 1716944284.39769 50162 b44e01c09fa6573b76d43aeafb8628cd "biber tmp/MarkosDelaportas_CaveCommunications"
-  "tmp/MarkosDelaportas_CaveCommunications.out" 1716944297.42839 946 7d1e5dea98811931e33e995500889847 "lualatex"
-  "tmp/MarkosDelaportas_CaveCommunications.run.xml" 1716944297.43939 2616 9b723ff07a7ffd2ba0004ac09f28d005 "lualatex"
-  "tmp/MarkosDelaportas_CaveCommunications.toc" 1716944297.43939 804 b63f56015c43a10770e5a51dac047f6a "lualatex"
+  "MarkosDelaportas_CaveCommunications.tex" 1717098943.94833 55789 0a89c3380a384ca7511fe761792f8b93 ""
+  "tmp/MarkosDelaportas_CaveCommunications.aux" 1717098951.30316 7010 eba9ef09d71f8b9ee7eafe17358fb469 "lualatex"
+  "tmp/MarkosDelaportas_CaveCommunications.bbl" 1717098919.09592 50162 80b218e23d125dc3dd27a2dc06b8b143 "biber tmp/MarkosDelaportas_CaveCommunications"
+  "tmp/MarkosDelaportas_CaveCommunications.out" 1717098951.33916 946 7d1e5dea98811931e33e995500889847 "lualatex"
+  "tmp/MarkosDelaportas_CaveCommunications.run.xml" 1717098951.35216 2616 9b723ff07a7ffd2ba0004ac09f28d005 "lualatex"
+  "tmp/MarkosDelaportas_CaveCommunications.toc" 1717098951.35216 804 e7413068abcda4054239f21008ffeda1 "lualatex"
   (generated)
   "MarkosDelaportas_CaveCommunications.pdf"
   "tmp/MarkosDelaportas_CaveCommunications.aux"

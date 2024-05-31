@@ -1,5 +1,0 @@
-[1] Config.pm:307> INFO - This is Biber 2.19
-[2] Config.pm:310> INFO - Logfile is 'tmp\Lab1_Áíáãíùñéóôçêü.blg'
-[385] biber-MSWIN64:340> INFO - === 
-[2022] Utils.pm:410> ERROR - Cannot find 'Lab1_Áíáãíùñéóôçêü.bcf'!
-[2023] Biber.pm:136> INFO - ERRORS: 1

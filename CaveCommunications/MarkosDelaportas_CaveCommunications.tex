@@ -1,4 +1,4 @@
-\documentclass[12pt, greek]{article}
+\documentclass[12pt]{article}
 \usepackage{geometry}
 \geometry{ b4paper, total={220mm,320mm}, left=20mm, top=15mm }
 
@@ -34,6 +34,8 @@
 \usepackage{amsmath}
 
 \usepackage{polyglossia}
+\setdefaultlanguage{greek} 
+\setotherlanguages{english}
 
 \usepackage[acronym]{glossaries}
 \usepackage{fontspec}
@@ -45,7 +47,8 @@
 
 \listfiles
 
-%\setdefaultlanguage{greek} \setotherlanguages{english}
+%\newfontfamily\greekfont[Script=Greek]{Georgia}
+%\newfontfamily\greekfontsans[Script=Greek]{FreeSans}
 
 % \setmainlanguage{greek} \setotherlanguage{english}
 % \setTransitionsForGreek{\selectlanguage{greek}}{\selectlanguage{english}}
@@ -55,11 +58,8 @@
 
 %\setmainfont[Kerning=On,Mapping=tex-text]{Linux Libertine}
 \setmainfont[Numbers=Lining]{Georgia}
-\setsansfont{Segoe UI Variable}
+\setsansfont[Script=Greek]{FreeSans}
 \setmonofont{Corbel}
-
-%\newfontfamily\greekfont[Script=Greek]{Linux Libertine}
-%\newfontfamily\greekfontsans[Script=Greek]{Fira Code}
 
 %\DeclareTextFontCommand{\maintxt}{\greekfont}
 %\DeclareTextFontCommand{\titletxt}{\greekfontsans}
@@ -114,7 +114,7 @@
         να μειωθεί η απώλεια μονοπατιού και η ισχύς του σήματος λήψης. }
     
 
-    \section{\normalsize \textsf{Εισαγωγή}}
+    \section{\textsf{Εισαγωγή}}
     % what has not been done in the sector, like there are technologies in lace but not
     % for a specific matter discussed. \textit{\textbf{Ιστορικό}}: 
         Από την εμφάνιση των πρώτων κινητών επικοινωνιών, πολλοί εξερευνητές, όπως και
@@ -148,7 +148,7 @@
         επικοινωνίας για την επίτευξη αξιόπιστης και αποτελεσματικής επικοινωνίας.
     % }
 
-    \section{\normalsize \textsf{Το πρόβλημα}} Το μεγαλύτερο πρόβλημα στις υπόγειες
+    \section{\textsf{Το πρόβλημα}} Το μεγαλύτερο πρόβλημα στις υπόγειες
         επικοινωνίες εγγυάται στο υψηλό pathloss λόγο της πυκνότητας του μέσου διαδοσης. Με
         άλλα λόγια το μεγαλύτερο μέρος της έρευνας που έχει λάβει τόπο στις ασύρματες
         επικοινωνίες λαμβάνει ώς μέσο διάδοσης τον κενό χώρος (δηλ. τον αέρα), αυτό διότι
@@ -166,7 +166,7 @@
         για επιχειρήσεις διάσωσης σε περιπτώσεις φυσικών καταστροφών ή/και επικοινωνίας σε
         υπόγειο βάθος.
 
-    \section{\normalsize \textsf{Σχετικές Έρευνες}} Στην βιβλιογραφία έχουν συνταχθεί
+    \section{\textsf{Σχετικές Έρευνες}} Στην βιβλιογραφία έχουν συνταχθεί
         αρκετές εργασίες σχετικά με την ασύρματη επικοινωνία σε σπήλαια και υπόγεια
         περιβάλλοντα. Ωστόσο πρέπει να σημειωθεί οτι δεδομένου του εύρους όλων των 
         σεναρίων/περιπτώσεων που ενέχει η έρευνα υπόγειων επικοινωνιών στην βιβλιογραφία
@@ -284,7 +284,7 @@
     \end{table}      
 \end{landscape}
 \begin{multicols*}{2}
-    \subsection{\normalsize \textsf{Συγκριτική ανάλυση}}
+    \subsection{ \textsf{Συγκριτική ανάλυση}}
         Οι παράμετροι με βάση τις οποίες θα συγκριθούν οι έρευνες είναι οι εξής:
             \begin{itemize}
                 \item Pathloss
@@ -397,7 +397,7 @@
         για βελτιωμένη εφαρμογή
 
 
-    \section{\normalsize \textbf{Συμπεράσματα}}
+    \section{\textsf{Συμπεράσματα}}
         Συμπερασματικά, η εργασία καταδεικνύει τη σκοπιμότητα των
         υπόγειων ασύρματων δικτύων επικοινωνίας σε υπόγεια περιβάλλοντα. Αυτά τα δίκτυα
         μπορούν να υποστηρίξουν μικρό αριθμό πελατών, με μικρά εύρη ζώνης και υψηλή ανοχή
@@ -480,7 +480,7 @@
         με τον παράγοντα σκέδασης, δηλαδή βελτιωμένη τυπική απόκλιση από 6,84 dB σε 4,48 dB με συντελεστή
         σκέδασης.
 
-    \section{\normalsize  \textsf{Συζήτηση}}
+    \section{\textsf{Συζήτηση}}
         Σε θεωρητικό επίπεδο εχουν προταθεί τεχνολογίες extremely low frequency
         (elf) οι οποίες είναι ήδη σε χρήση σε υποβρύχια επειδή τα ραδιοκύματα ELF μπορούν να
         διεισδύσουν στο θαλασσινό νερό σε πολύ μεγαλύτερο βάθος από τα ραδιοκύματα υψηλότερης

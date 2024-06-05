@@ -1,5 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'tmp.blg'
-[189] biber:340> INFO - === Mon Jun  3, 2024, 23:06:24
-[525] Utils.pm:399> ERROR - Cannot find 'tmp.bcf'!
-[525] Biber.pm:136> INFO - ERRORS: 1

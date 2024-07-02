@@ -2,7 +2,7 @@
 id: gh17731qrhw6uhac6buu12m
 title: In-Cave Wireless Communication System
 desc: ''
-updated: 1719951505986
+updated: 1719961187385
 created: 1719921199019
 ---
 ## Προτεινόμενη τεχνολογία και Υποκείμενο Σχέδιο Τηλεπικοινωνιών

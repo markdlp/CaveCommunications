@@ -484,109 +484,112 @@ def transmit(env,node):
 # "main" program
 #
 
-# get arguments
-if len(sys.argv) >= 6:
-    nrNodes = int(sys.argv[1])
-    avgSendTime = int(sys.argv[2])
-    experiment = int(sys.argv[3])
-    simtime = int(sys.argv[4])
-    nrBS = int(sys.argv[5])
-    if len(sys.argv) > 6:
-        full_collision = bool(int(sys.argv[6]))
-    print( "Nodes:", nrNodes)
-    print( "AvgSendTime (exp. distributed):",avgSendTime)
-    print( "Experiment: ", experiment)
-    print( "Simtime: ", simtime)
-    print( "nrBS: ", nrBS)
-    if (nrBS > 4 and nrBS!=8 and nrBS!=6 and nrBS != 24):
-        print( "too many base stations, max 4 or 6 or 8 base stations")
+if __name__ == '__main__':
+
+
+    # get arguments
+    if len(sys.argv) >= 6:
+        nrNodes = int(sys.argv[1])
+        avgSendTime = int(sys.argv[2])
+        experiment = int(sys.argv[3])
+        simtime = int(sys.argv[4])
+        nrBS = int(sys.argv[5])
+        if len(sys.argv) > 6:
+            full_collision = bool(int(sys.argv[6]))
+        print( "Nodes:", nrNodes)
+        print( "AvgSendTime (exp. distributed):",avgSendTime)
+        print( "Experiment: ", experiment)
+        print( "Simtime: ", simtime)
+        print( "nrBS: ", nrBS)
+        if (nrBS > 4 and nrBS!=8 and nrBS!=6 and nrBS != 24):
+            print( "too many base stations, max 4 or 6 or 8 base stations")
+            exit(-1)
+        print( "Full Collision: ", full_collision)
+    else:
+        print( "usage: ./loraDir <nodes> <avgsend> <experiment> <simtime> <basestation> [collision]")
+        print( "experiment 0 and 1 use 1 frequency only")
         exit(-1)
-    print( "Full Collision: ", full_collision)
-else:
-    print( "usage: ./loraDir <nodes> <avgsend> <experiment> <simtime> <basestation> [collision]")
-    print( "experiment 0 and 1 use 1 frequency only")
-    exit(-1)
 
 
-# global stuff
-nodes = []
-packetsAtBS = []
-env = simpy.Environment()
+    # global stuff
+    nodes = []
+    packetsAtBS = []
+    env = simpy.Environment()
 
 
-# max distance: 300m in city, 3000 m outside (5 km Utz experiment)
-# also more unit-disc like according to Utz
-nrCollisions = 0
-nrReceived = 0
-nrProcessed = 0
+    # max distance: 300m in city, 3000 m outside (5 km Utz experiment)
+    # also more unit-disc like according to Utz
+    nrCollisions = 0
+    nrReceived = 0
+    nrProcessed = 0
 
-# global value of packet sequence numbers
-packetSeq = 0
+    # global value of packet sequence numbers
+    packetSeq = 0
 
-# list of received packets
-recPackets=[]
-collidedPackets=[]
-lostPackets = []
+    # list of received packets
+    recPackets=[]
+    collidedPackets=[]
+    lostPackets = []
 
-Ptx = 14
-gamma = 2.08
-d0 = 40.0
-var = 0           # variance ignored for now
-Lpld0 = 127.41
-GL = 0
+    Ptx = 14
+    gamma = 2.08
+    d0 = 40.0
+    var = 0           # variance ignored for now
+    Lpld0 = 127.41
+    GL = 0
 
-sensi = np.array([sf7,sf8,sf9,sf10,sf11,sf12])
+    sensi = np.array([sf7,sf8,sf9,sf10,sf11,sf12])
 
-## figure out the minimal sensitivity for the given experiment
-minsensi = -200.0
-if experiment in [0,1,4]:
-    minsensi = sensi[5,2]  # 5th row is SF12, 2nd column is BW125
-elif experiment == 2:
-    minsensi = -112.0   # no experiments, so value from datasheet
-elif experiment == [3, 5]:
-    minsensi = np.amin(sensi) ## Experiment 3 can use any setting, so take minimum
+    ## figure out the minimal sensitivity for the given experiment
+    minsensi = -200.0
+    if experiment in [0,1,4]:
+        minsensi = sensi[5,2]  # 5th row is SF12, 2nd column is BW125
+    elif experiment == 2:
+        minsensi = -112.0   # no experiments, so value from datasheet
+    elif experiment == [3, 5]:
+        minsensi = np.amin(sensi) ## Experiment 3 can use any setting, so take minimum
 
-Lpl = Ptx - minsensi
-print ("amin", minsensi, "Lpl", Lpl)
-maxDist = d0*(math.e**((Lpl-Lpld0)/(10.0*gamma)))
-print ("maxDist:", maxDist)
+    Lpl = Ptx - minsensi
+    print ("amin", minsensi, "Lpl", Lpl)
+    maxDist = d0*(math.e**((Lpl-Lpld0)/(10.0*gamma)))
+    print ("maxDist:", maxDist)
 
-# base station placement
-bsx = maxDist+10
-bsy = maxDist+10
-xmax = bsx + maxDist + 20
-ymax = bsy + maxDist + 20
+    # base station placement
+    bsx = maxDist+10
+    bsy = maxDist+10
+    xmax = bsx + maxDist + 20
+    ymax = bsy + maxDist + 20
 
-# maximum number of packets the BS can receive at the same time
-maxBSReceives = 8
+    # maximum number of packets the BS can receive at the same time
+    maxBSReceives = 8
 
 
 
-maxX = 2 * maxDist * math.sin(60*(math.pi/180)) # == sqrt(3) * maxDist
-print( "maxX ", maxX)
-maxY = 2 * maxDist * math.sin(30*(math.pi/180)) # == maxdist
-print( "maxY", maxY)
+    maxX = 2 * maxDist * math.sin(60*(math.pi/180)) # == sqrt(3) * maxDist
+    print( "maxX ", maxX)
+    maxY = 2 * maxDist * math.sin(30*(math.pi/180)) # == maxdist
+    print( "maxY", maxY)
 
 
-# prepare graphics and add sink
-if (graphics == 1):
-    plt.ion()
-    plt.figure()
-    ax = plt.gcf().gca()
+    # prepare graphics and add sink
+    if (graphics == 1):
+        plt.ion()
+        plt.figure()
+        ax = plt.gcf().gca()
 
-    ax.add_patch(Rectangle((0, 0), maxX, maxY, fill=None, alpha=1))
+        ax.add_patch(Rectangle((0, 0), maxX, maxY, fill=None, alpha=1))
 
-# list of base stations
-bs = []
+    # list of base stations
+    bs = []
 
-# list of packets at each base station, init with 0 packets
-packetsAtBS = []
-packetsRecBS = []
-for i in range(0,nrBS):
-    b = myBS(i)
-    bs.append(b)
-    packetsAtBS.append([])
-    packetsRecBS.append([])
+    # list of packets at each base station, init with 0 packets
+    packetsAtBS = []
+    packetsRecBS = []
+    for i in range(0,nrBS):
+        b = myBS(i)
+        bs.append(b)
+        packetsAtBS.append([])
+        packetsRecBS.append([])
 
 
 
@@ -594,80 +597,80 @@ for i in range(0,nrBS):
 
 
 
-for i in range(0,nrNodes):
-    # myNode takes period (in ms), base station id packetlen (in Bytes)
-    # 1000000 = 16 min
-    node = myNode(i, avgSendTime,20)
-    nodes.append(node)
-    env.process(transmit(env,node))
+    for i in range(0,nrNodes):
+        # myNode takes period (in ms), base station id packetlen (in Bytes)
+        # 1000000 = 16 min
+        node = myNode(i, avgSendTime,20)
+        nodes.append(node)
+        env.process(transmit(env,node))
 
-#prepare show
-if (graphics == 1):
-    plt.xlim([0, xmax])
-    plt.ylim([0, ymax])
-    plt.draw()
-    plt.show()
+    #prepare show
+    if (graphics == 1):
+        plt.xlim([0, xmax])
+        plt.ylim([0, ymax])
+        plt.draw()
+        plt.show()
 
-# store nodes and basestation locations
-with open('data/LoRaDirMulBS/nodes.txt', 'w') as nfile:
-    for node in nodes:
-        nfile.write('{x} {y} {id}\n'.format(**vars(node)))
+    # store nodes and basestation locations
+    with open('data/LoRaDirMulBS/nodes.txt', 'w') as nfile:
+        for node in nodes:
+            nfile.write('{x} {y} {id}\n'.format(**vars(node)))
 
-with open('data/LoRaDirMulBS/basestation.txt', 'w') as bfile:
-    for basestation in bs:
-        bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
+    with open('data/LoRaDirMulBS/basestation.txt', 'w') as bfile:
+        for basestation in bs:
+            bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
 
-# start simulation
-env.run(until=simtime)
+    # start simulation
+    env.run(until=simtime)
 
-# print stats and save into file
-print( "nrCollisions ", nrCollisions)
-# print list of received packets
-#print recPackets
-print( "nr received packets", len(recPackets))
-print( "nr collided packets", len(collidedPackets))
-print( "nr lost packets", len(lostPackets))
+    # print stats and save into file
+    print( "nrCollisions ", nrCollisions)
+    # print list of received packets
+    #print recPackets
+    print( "nr received packets", len(recPackets))
+    print( "nr collided packets", len(collidedPackets))
+    print( "nr lost packets", len(lostPackets))
 
-#print "sent packets: ", sent
-#print "sent packets-collisions: ", sent-nrCollisions
-#print "received packets: ", len(recPackets)
-for i in range(0,nrBS):
-    print( "packets at BS",i, ":", len(packetsRecBS[i]))
-print( "sent packets: ", packetSeq)
+    #print "sent packets: ", sent
+    #print "sent packets-collisions: ", sent-nrCollisions
+    #print "received packets: ", len(recPackets)
+    for i in range(0,nrBS):
+        print( "packets at BS",i, ":", len(packetsRecBS[i]))
+    print( "sent packets: ", packetSeq)
 
-# data extraction rate
-der = len(recPackets)/float(packetSeq)
-print( "DER:", der)
-#der = (nrReceived)/float(sent)
-#print "DER method 2:", der
+    # data extraction rate
+    der = len(recPackets)/float(packetSeq)
+    print( "DER:", der)
+    #der = (nrReceived)/float(sent)
+    #print "DER method 2:", der
 
-# this can be done to keep graphics visible
-if (graphics == 1):
-    input('Press Enter to continue ...')
+    # this can be done to keep graphics visible
+    if (graphics == 1):
+        input('Press Enter to continue ...')
 
-# save experiment data into a dat file that can be read by e.g. gnuplot
-# name of file would be:  exp0.dat for experiment 0
-fname = "data/LoRaDirMulBS/exp" + str(experiment) + "BS" + str(nrBS) + ".dat"
-print(fname)
-if os.path.isfile(fname):
-    res = "\n" + str(nrNodes) + " " + str(der)
-else:
-    res = "# nrNodes DER\n" + str(nrNodes) + " " + str(der)
-with open(fname, "a") as myfile:
-    myfile.write(res)
-myfile.close()
+    # save experiment data into a dat file that can be read by e.g. gnuplot
+    # name of file would be:  exp0.dat for experiment 0
+    fname = "data/LoRaDirMulBS/exp" + str(experiment) + "BS" + str(nrBS) + ".dat"
+    print(fname)
+    if os.path.isfile(fname):
+        res = "\n" + str(nrNodes) + " " + str(der)
+    else:
+        res = "# nrNodes DER\n" + str(nrNodes) + " " + str(der)
+    with open(fname, "a") as myfile:
+        myfile.write(res)
+    myfile.close()
 
-#exit(-1)
-#below not updated
+    #exit(-1)
+    #below not updated
 
 
-# compute energy
-energy = 0.0
-mA = 90    # current draw for TX = 17 dBm
-V = 3     # voltage XXX
-sent = 0
-for i in range(0,nrNodes):
-#    print "sent ", nodes[i].sent
-    sent = sent + nodes[i].sent
-    energy = (energy + nodes[i].packet.rectime * mA * V * nodes[i].sent)/1000.0
-print( "energy (in mJ): ", energy)
+    # compute energy
+    energy = 0.0
+    mA = 90    # current draw for TX = 17 dBm
+    V = 3     # voltage XXX
+    sent = 0
+    for i in range(0,nrNodes):
+    #    print "sent ", nodes[i].sent
+        sent = sent + nodes[i].sent
+        energy = (energy + nodes[i].packet.rectime * mA * V * nodes[i].sent)/1000.0
+    print( "energy (in mJ): ", energy)

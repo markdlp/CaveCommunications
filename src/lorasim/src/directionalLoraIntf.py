@@ -63,7 +63,6 @@ import math
 import sys
 import matplotlib.pyplot as plt
 import os
-from matplotlib.patches import Rectangle
 
 # turn on/off graphics
 graphics = 0
@@ -665,189 +664,192 @@ def transmit(env,node):
 # "main" program
 #
 
-# get arguments
-if len(sys.argv) == 10:
-    nrNodes = int(sys.argv[1])                       
-    avgSendTime = int(sys.argv[2])
-    experiment = int(sys.argv[3])
-    simtime = int(sys.argv[4])
-    nrBS = int(sys.argv[5])
-    if len(sys.argv) > 6:
-        full_collision = bool(int(sys.argv[6]))
-    directionality = int(sys.argv[7])
-    nrNetworks = int(sys.argv[8])
-    baseDist = float(sys.argv[9])
-    print( "Nodes per base station:", nrNodes )
-    print( "AvgSendTime (exp. distributed):",avgSendTime)
-    print( "Experiment: ", experiment)
-    print( "Simtime: ", simtime)
-    print( "nrBS: ", nrBS)
-    print( "Full Collision: ", full_collision)
-    print( "with directionality: ", directionality)
-    print( "nrNetworks: ", nrNetworks)
-    print( "baseDist: ", baseDist)   # x-distance between the two base stations
+if __name__ == '__main__':
 
-else:
-    print( "usage: ./directionalLoraIntf.py <nodes> <avgsend> <experiment> <simtime> <collision> <directionality> <networks> <basedist>")
-    print( "experiment 0 and 1 use 1 frequency only")
-    exit(-1)
+    # get arguments
+    if len(sys.argv) == 10:
+        nrNodes = int(sys.argv[1])
+        avgSendTime = int(sys.argv[2])
+        experiment = int(sys.argv[3])
+        simtime = int(sys.argv[4])
+        nrBS = int(sys.argv[5])
+        if len(sys.argv) > 6:
+            full_collision = bool(int(sys.argv[6]))
+        directionality = int(sys.argv[7])
+        nrNetworks = int(sys.argv[8])
+        baseDist = float(sys.argv[9])
+        print( "Nodes per base station:", nrNodes )
+        print( "AvgSendTime (exp. distributed):",avgSendTime)
+        print( "Experiment: ", experiment)
+        print( "Simtime: ", simtime)
+        print( "nrBS: ", nrBS)
+        print( "Full Collision: ", full_collision)
+        print( "with directionality: ", directionality)
+        print( "nrNetworks: ", nrNetworks)
+        print( "baseDist: ", baseDist)   # x-distance between the two base stations
 
-
-# global stuff
-nodes = []
-packetsAtBS = []
-env = simpy.Environment()
+    else:
+        print( "usage: ./directionalLoraIntf.py <nodes> <avgsend> <experiment> <simtime> <collision> <directionality> <networks> <basedist>")
+        print( "experiment 0 and 1 use 1 frequency only")
+        exit(-1)
 
 
-# max distance: 300m in city, 3000 m outside (5 km Utz experiment)
-# also more unit-disc like according to Utz
-nrCollisions = 0
-nrReceived = 0
-nrProcessed = 0
-
-# global value of packet sequence numbers
-packetSeq = 0
-
-# list of received packets
-recPackets=[]
-collidedPackets=[]
-lostPackets = []
-
-Ptx = 14
-gamma = 2.08
-d0 = 40.0
-var = 0           # variance ignored for now
-Lpld0 = 127.41
-GL = 0
-
-sensi = np.array([sf7,sf8,sf9,sf10,sf11,sf12])
-
-## figure out the minimal sensitivity for the given experiment
-minsensi = -200.0
-if experiment in [0,1,4]:
-    minsensi = sensi[5,2]  # 5th row is SF12, 2nd column is BW125
-elif experiment == 2:
-    minsensi = -112.0   # no experiments, so value from datasheet
-elif experiment == 3:
-    minsensi = np.amin(sensi) ## Experiment 3 can use any setting, so take minimum
-
-Lpl = Ptx - minsensi
-print( "amin", minsensi, "Lpl", Lpl)
-maxDist = d0*(math.e**((Lpl-Lpld0)/(10.0*gamma)))
-print( "maxDist:", maxDist)
-
-# size of area
-xmax = maxDist*(nrBS+2) + 20
-ymax = maxDist*(nrBS+1) + 20
-
-# maximum number of packets the BS can receive at the same time
-maxBSReceives = 8
-
-maxX = maxDist + baseDist*(nrBS) 
-print( "maxX ", maxX)
-maxY = 2 * maxDist * math.sin(30*(math.pi/180)) # == maxdist
-print( "maxY", maxY)
-
-# prepare graphics and add sink
-if (graphics == 1):
-    plt.ion()
-    plt.figure()
-    ax = plt.gcf().gca()
-
-# list of base stations
-bs = []
-
-# list of packets at each base station, init with 0 packets
-packetsAtBS = []
-packetsRecBS = []
-for i in range(0,nrBS):
-    b = myBS(i)
-    bs.append(b)
-    packetsAtBS.append([])
-    packetsRecBS.append([])
+    # global stuff
+    nodes = []
+    packetsAtBS = []
+    env = simpy.Environment()
 
 
-for i in range(0,nrNodes):
-    # myNode takes period (in ms), base station id packetlen (in Bytes)
-    # 1000000 = 16 min
-    for j in range(0,nrBS):
-        # create nrNodes for each base station
-        node = myNode(i*nrBS+j, avgSendTime,20,bs[j])
-        nodes.append(node)
-        
-        # when we add directionality, we update the RSSI here
-        if (directionality == 1):
-            node.updateRSSI()
-        env.process(transmit(env,node))
+    # max distance: 300m in city, 3000 m outside (5 km Utz experiment)
+    # also more unit-disc like according to Utz
+    nrCollisions = 0
+    nrReceived = 0
+    nrProcessed = 0
 
-#prepare show
-if (graphics == 1):
-    plt.xlim([0, maxX+50])
-    plt.ylim([0, maxX+50])
-    plt.draw()
-    plt.show()  
+    # global value of packet sequence numbers
+    packetSeq = 0
 
-# store nodes and basestation locations
-with open('data/directionalLoRaIntf/nodes.txt', 'w') as nfile:
-    for node in nodes:
-        nfile.write('{x} {y} {id}\n'.format(**vars(node)))
+    # list of received packets
+    recPackets=[]
+    collidedPackets=[]
+    lostPackets = []
 
-with open('data/directionalLoRaIntf/basestation.txt', 'w') as bfile:
-    for basestation in bs:
-        bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
+    Ptx = 14
+    gamma = 2.08
+    d0 = 40.0
+    var = 0           # variance ignored for now
+    Lpld0 = 127.41
+    GL = 0
 
-# start simulation
-env.run(until=simtime)
 
-# print stats and save into file
-print("nr received packets (independent of right base station)", len(recPackets))
-print ("nr collided packets", len(collidedPackets))
-print ("nr lost packets (not correct)", len(lostPackets))
+    sensi = np.array([sf7,sf8,sf9,sf10,sf11,sf12])
 
-sum = 0
-for i in range(0,nrBS):
-    print ("packets at BS",i, ":", len(packetsRecBS[i]))
-    sum = sum + len(packetsRecBS[i])
-print ("sent packets: ", packetSeq)
-print( "overall received at right BS: ", sum)
+    ## figure out the minimal sensitivity for the given experiment
+    minsensi = -200.0
+    if experiment in [0,1,4]:
+        minsensi = sensi[5,2]  # 5th row is SF12, 2nd column is BW125
+    elif experiment == 2:
+        minsensi = -112.0   # no experiments, so value from datasheet
+    elif experiment == 3:
+        minsensi = np.amin(sensi) ## Experiment 3 can use any setting, so take minimum
 
-sumSent = 0
-sent = []
-for i in range(0, nrBS):
-    sent.append(0)
-for i in range(0,nrNodes*nrBS):
-    sumSent = sumSent + nodes[i].sent
-    print ("id for node ", nodes[i].id, "BS:", nodes[i].bs.id, " sent: ", nodes[i].sent)
-    sent[nodes[i].bs.id] = sent[nodes[i].bs.id] + nodes[i].sent
-for i in range(0, nrBS):
-    print ("send to BS[",i,"]:", sent[i])
+    Lpl = Ptx - minsensi
+    print( "amin", minsensi, "Lpl", Lpl)
+    maxDist = d0*(math.e**((Lpl-Lpld0)/(10.0*gamma)))
+    print( "maxDist:", maxDist)
 
-print ("sumSent: ", sumSent)
+    # size of area
+    xmax = maxDist*(nrBS+2) + 20
+    ymax = maxDist*(nrBS+1) + 20
 
-der = []
-# data extraction rate
-derALL = len(recPackets)/float(sumSent)
-sumder = 0
-for i in range(0, nrBS):
-    der.append(len(packetsRecBS[i])/float(sent[i]))
-    print( "DER BS[",i,"]:", der[i])
-    sumder = sumder + der[i]
-avgDER = (sumder)/nrBS
-print( "avg DER: ", avgDER)
-print( "DER with 1 network:", derALL)
+    # maximum number of packets the BS can receive at the same time
+    maxBSReceives = 8
 
-# this can be done to keep graphics visible
-if (graphics == 1):
-    input('Press Enter to continue ...')
+    maxX = maxDist + baseDist*(nrBS)
+    print( "maxX ", maxX)
+    maxY = 2 * maxDist * math.sin(30*(math.pi/180)) # == maxdist
+    print( "maxY", maxY)
 
-# save experiment data into a dat file that can be read by e.g. gnuplot
-# name of file would be:  exp0.dat for experiment 0
-fname = "data/directionalLoRaIntf/exp" + str(experiment) + "d99" + "BS" + str(nrBS) + "Intf.dat"
-print(fname)
-if os.path.isfile(fname):
-    res = "\n" + str(nrNodes) + " " + str(der[0]) 
-else:
-    res = "# nrNodes DER0 AVG-DER\n" + str(nrNodes) + " " + str(der[0]) + " " + str(avgDER) 
-with open(fname, "a") as myfile:
-    myfile.write(res)
-myfile.close()
+    # prepare graphics and add sink
+    if (graphics == 1):
+        plt.ion()
+        plt.figure()
+        ax = plt.gcf().gca()
+
+    # list of base stations
+    bs = []
+
+    # list of packets at each base station, init with 0 packets
+    packetsAtBS = []
+    packetsRecBS = []
+    for i in range(0,nrBS):
+        b = myBS(i)
+        bs.append(b)
+        packetsAtBS.append([])
+        packetsRecBS.append([])
+
+
+    for i in range(0,nrNodes):
+        # myNode takes period (in ms), base station id packetlen (in Bytes)
+        # 1000000 = 16 min
+        for j in range(0,nrBS):
+            # create nrNodes for each base station
+            node = myNode(i*nrBS+j, avgSendTime,20,bs[j])
+            nodes.append(node)
+
+            # when we add directionality, we update the RSSI here
+            if (directionality == 1):
+                node.updateRSSI()
+            env.process(transmit(env,node))
+
+    #prepare show
+    if (graphics == 1):
+        plt.xlim([0, maxX+50])
+        plt.ylim([0, maxX+50])
+        plt.draw()
+        plt.show()
+
+    # store nodes and basestation locations
+    with open('data/directionalLoRaIntf/nodes.txt', 'w') as nfile:
+        for node in nodes:
+            nfile.write('{x} {y} {id}\n'.format(**vars(node)))
+
+    with open('data/directionalLoRaIntf/basestation.txt', 'w') as bfile:
+        for basestation in bs:
+            bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
+
+    # start simulation
+    env.run(until=simtime)
+
+    # print stats and save into file
+    print("nr received packets (independent of right base station)", len(recPackets))
+    print ("nr collided packets", len(collidedPackets))
+    print ("nr lost packets (not correct)", len(lostPackets))
+
+    sum = 0
+    for i in range(0,nrBS):
+        print ("packets at BS",i, ":", len(packetsRecBS[i]))
+        sum = sum + len(packetsRecBS[i])
+    print ("sent packets: ", packetSeq)
+    print( "overall received at right BS: ", sum)
+
+    sumSent = 0
+    sent = []
+    for i in range(0, nrBS):
+        sent.append(0)
+    for i in range(0,nrNodes*nrBS):
+        sumSent = sumSent + nodes[i].sent
+        print ("id for node ", nodes[i].id, "BS:", nodes[i].bs.id, " sent: ", nodes[i].sent)
+        sent[nodes[i].bs.id] = sent[nodes[i].bs.id] + nodes[i].sent
+    for i in range(0, nrBS):
+        print ("send to BS[",i,"]:", sent[i])
+
+    print ("sumSent: ", sumSent)
+
+    der = []
+    # data extraction rate
+    derALL = len(recPackets)/float(sumSent)
+    sumder = 0
+    for i in range(0, nrBS):
+        der.append(len(packetsRecBS[i])/float(sent[i]))
+        print( "DER BS[",i,"]:", der[i])
+        sumder = sumder + der[i]
+    avgDER = (sumder)/nrBS
+    print( "avg DER: ", avgDER)
+    print( "DER with 1 network:", derALL)
+
+    # this can be done to keep graphics visible
+    if (graphics == 1):
+        input('Press Enter to continue ...')
+
+    # save experiment data into a dat file that can be read by e.g. gnuplot
+    # name of file would be:  exp0.dat for experiment 0
+    fname = "data/directionalLoRaIntf/exp" + str(experiment) + "d99" + "BS" + str(nrBS) + "Intf.dat"
+    print(fname)
+    if os.path.isfile(fname):
+        res = "\n" + str(nrNodes) + " " + str(der[0])
+    else:
+        res = "# nrNodes DER0 AVG-DER\n" + str(nrNodes) + " " + str(der[0]) + " " + str(avgDER)
+    with open(fname, "a") as myfile:
+        myfile.write(res)
+    myfile.close()

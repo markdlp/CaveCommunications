@@ -565,13 +565,13 @@ if (graphics == 1):
 
 # save experiment data into a dat file that can be read by e.g. gnuplot
 # name of file would be:  exp0.dat for experiment 0
-fname = "data/LoRaDir/exp" + str(experiment) + ".dat"
+fname = "../data/LoRaDir/exp" + str(experiment) + ".dat"
 print( fname)
 if os.path.isfile(fname):
     res = "\n" + str(nrNodes) + " " + str(nrCollisions) + " "  + str(sent) + " " + str(energy)
 else:
     res = "#nrNodes nrCollisions nrTransmissions OverallEnergy\n" + str(nrNodes) + " " + str(nrCollisions) + " "  + str(sent) + " " + str(energy)
-with open(fname, "a") as myfile:
+with open(fname[1:], "a") as myfile:
     myfile.write(res)
 myfile.close()
 

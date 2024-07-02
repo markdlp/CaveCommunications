@@ -2,11 +2,11 @@
 id: 82fnaf3al4fhr6jx8nhv8gx
 title: Accurate Wireless Tracking for Underground Mining
 desc: ''
-updated: 1719918649907
+updated: 1719921779963
 created: 1719918432442
 ---
 
-## τεχνολογία
+## Τεχνολογία
 Η μελέτη χρησιμοποιεί την τεχνολογία **WASP (Wireless Ad-hoc System for Positioning)**.
 
 ## Ερευνητικός σκοπός

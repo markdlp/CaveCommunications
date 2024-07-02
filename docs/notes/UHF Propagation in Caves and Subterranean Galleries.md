@@ -2,7 +2,7 @@
 id: 911z00nq5l3cd1p06hxw6k8
 title: UHF Propagation in Caves and Subterranean Galleries
 desc: ''
-updated: 1719916938742
+updated: 1719921779956
 created: 1719786007004
 ---
 

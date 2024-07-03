@@ -488,6 +488,7 @@ class myPacket():
         global nodes
         global minsensi
 
+
         # new: base station ID
         self.bs = bs
         self.nodeid = nodeid

@@ -569,7 +569,7 @@ if __name__ == '__main__':
         res = "\n" + str(nrNodes) + " " + str(nrCollisions) + " "  + str(sent) + " " + str(energy)
     else:
         res = "#nrNodes nrCollisions nrTransmissions OverallEnergy\n" + str(nrNodes) + " " + str(nrCollisions) + " "  + str(sent) + " " + str(energy)
-    with open(fname, "a") as myfile:
+    with open(fname[1:], "a") as myfile:
         myfile.write(res)
     myfile.close()
 

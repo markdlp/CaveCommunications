@@ -6,19 +6,67 @@
     "configurations": [
         
         {
-            "name": "Python: Current File",
+            "name": "directionalLoraIntf",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "src/directionalLoraIntf.py",
             "args": [
-                "12",
-                "1000",
+                "10",
+                "500",
+                "0",
+                "5000",
+                "2",
                 "1",
-                "15000",
+                "1",
+                "2",
+                "5"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "loraDir",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/loraDir.py",
+            "args": [
+                "10",
+                "500",
+                "5",
+                "5000",
+                "1"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "loraDirMulBS",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/loraDirMulBS.py",
+            "args": [
+                "50",
+                "500",
+                "5",
+                "5000",
+                "1",
+                "1"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "oneDirectionalLoraIntf",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "src/oneDirectionalLoraIntf.py",
+            "args": [
+                "50",
+                "500",
+                "5",
+                "5000",
+                "2",
                 "1",
                 "1",
-                "1",
-                "10"
+                "2",
+                "5"
             ],
             "console": "integratedTerminal"
         }

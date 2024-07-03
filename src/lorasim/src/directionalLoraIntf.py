@@ -586,7 +586,7 @@ class myPacket():
         # mark the packet as lost when it's rssi is below the sensitivity
         # don't do this for experiment 3, as it requires a bit more work
         if experiment != 3:
-            global minsensi
+            #global minsensi
             self.lost = self.rssi < minsensi
             print( "node {} bs {} lost {}".format(self.nodeid, self.bs, self.lost))
 
@@ -790,11 +790,11 @@ if __name__ == '__main__':
         plt.show()
 
     # store nodes and basestation locations
-    with open('data/directionalLoRaIntf/nodes.txt', 'w') as nfile:
+    with open('../data/directionalLoRaIntf/nodes.txt', 'w') as nfile:
         for node in nodes:
             nfile.write('{x} {y} {id}\n'.format(**vars(node)))
 
-    with open('data/directionalLoRaIntf/basestation.txt', 'w') as bfile:
+    with open('../data/directionalLoRaIntf/basestation.txt', 'w') as bfile:
         for basestation in bs:
             bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
 
@@ -844,7 +844,7 @@ if __name__ == '__main__':
 
     # save experiment data into a dat file that can be read by e.g. gnuplot
     # name of file would be:  exp0.dat for experiment 0
-    fname = "data/directionalLoRaIntf/exp" + str(experiment) + "d99" + "BS" + str(nrBS) + "Intf.dat"
+    fname = "../data/directionalLoRaIntf/exp" + str(experiment) + "d99" + "BS" + str(nrBS) + "Intf.dat"
     print(fname)
     if os.path.isfile(fname):
         res = "\n" + str(nrNodes) + " " + str(der[0])

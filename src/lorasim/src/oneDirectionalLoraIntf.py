@@ -776,11 +776,11 @@ if __name__ == '__main__':
         plt.show()
 
     # store nodes and basestation locations
-    with open('data/oneDirectionalLoRaIntf/nodes.txt', 'w') as nfile:
+    with open('../data/oneDirectionalLoRaIntf/nodes.txt', 'w') as nfile:
         for node in nodes:
             nfile.write('{x} {y} {id}\n'.format(**vars(node)))
 
-    with open('data/oneDirectionalLoRaIntf/basestation.txt', 'w') as bfile:
+    with open('../data/oneDirectionalLoRaIntf/basestation.txt', 'w') as bfile:
         for basestation in bs:
             bfile.write('{x} {y} {id}\n'.format(**vars(basestation)))
 
@@ -829,7 +829,7 @@ if __name__ == '__main__':
 
     # save experiment data into a dat file that can be read by e.g. gnuplot
     # name of file would be:  exp0.dat for experiment 0
-    fname = "data/oneDirectionalLoRaIntf/exp" + str(experiment) + "intfDIR5BS.dat"
+    fname = "../data/oneDirectionalLoRaIntf/exp" + str(experiment) + "intfDIR5BS.dat"
     print( fname)
     if os.path.isfile(fname):
         res = "\n" + str(nrNodes) + " " + str(der[0]) + " " + str(avgDER)
